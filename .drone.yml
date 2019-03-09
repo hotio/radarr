@@ -24,6 +24,7 @@ steps:
       from_secret: docker_password
     repo: hotio/radarr
     auto_tag: true
+    cache_from: "hotio/radarr"
 
 - name: microbadger
   image: plugins/webhook
