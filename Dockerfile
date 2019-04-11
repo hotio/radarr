@@ -12,4 +12,3 @@ RUN curl -fsSL "https://github.com/Radarr/Radarr/releases/download/v0.2.0.1293/R
     chmod -R u=rwX,go=rX "${APP_DIR}"
 
 COPY root/ /
-
