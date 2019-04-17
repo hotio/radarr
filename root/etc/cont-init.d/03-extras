@@ -1,0 +1,22 @@
+#!/usr/bin/with-contenv bash
+
+if [ "$FFMPEG" == "true" ]; then
+
+apt update > /dev/null 2>&1 && apt install wget -y > /dev/null 2>&1
+
+# Add ffmpeg file & cleanup /tmp
+
+wget -q https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz -P /tmp
+tar -xf /tmp/ffmpeg-release-amd64-static.tar.xz  --no-anchored --strip-components=1 -C /usr/bin/ 'ffmpeg' 
+rm /tmp/ffmpeg-release-amd64-static.tar.xz 
+
+fi
+
+if [ "$MKVTOOLNIX" == "true" ]; then
+
+apt update > /dev/null 2>&1 && apt install wget gnupg -y > /dev/null 2>&1
+echo "deb https://mkvtoolnix.download/ubuntu/ bionic main" | tee /etc/apt/sources.list.d/mkvtoolnix.list > /dev/null 2>&1
+wget -q -O - https://mkvtoolnix.download/gpg-pub-moritzbunkus.txt | apt-key add - > /dev/null 2>&1
+
+apt update > /dev/null 2>&1 && apt install mkvtoolnix -y > /dev/null 2>&1
+fi
