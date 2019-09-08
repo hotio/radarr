@@ -1,11 +1,10 @@
 FROM hotio/mono
 
 ARG DEBIAN_FRONTEND="noninteractive"
-ARG GIT_COMMIT
-ARG GIT_TAG
-ARG ARCH
+ARG COMMIT
+ARG TAG
 
-ENV GIT_COMMIT="${GIT_COMMIT}" GIT_TAG="${GIT_TAG}" ARCH="${ARCH}"
+ENV COMMIT="${COMMIT}" TAG="${TAG}"
 ENV APP="Radarr"
 EXPOSE 7878
 HEALTHCHECK --interval=60s CMD curl -fsSL http://localhost:7878 || exit 1
