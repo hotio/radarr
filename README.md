@@ -1,8 +1,7 @@
-# [Radarr](https://github.com/Radarr/Radarr)
+# [docker-radarr](https://github.com/hotio/docker-radarr)
 
-[![badge](https://images.microbadger.com/badges/image/hotio/radarr.svg)](https://microbadger.com/images/hotio/radarr "Get your own image badge on microbadger.com")
-[![badge](https://images.microbadger.com/badges/version/hotio/radarr.svg)](https://microbadger.com/images/hotio/radarr "Get your own version badge on microbadger.com")
-[![badge](https://images.microbadger.com/badges/commit/hotio/radarr.svg)](https://microbadger.com/images/hotio/radarr "Get your own commit badge on microbadger.com")
+![Docker Pulls](https://img.shields.io/docker/pulls/hotio/radarr?style=flat-square)
+![Drone (cloud)](https://img.shields.io/drone/build/hotio/docker-radarr?style=flat-square)
 
 ## Donations
 
