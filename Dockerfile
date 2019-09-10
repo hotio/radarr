@@ -1,11 +1,7 @@
 FROM hotio/mono
 
 ARG DEBIAN_FRONTEND="noninteractive"
-ARG COMMIT
-ARG TAG
 
-ENV COMMIT="${COMMIT}" TAG="${TAG}"
-ENV APP="Radarr"
 EXPOSE 7878
 HEALTHCHECK --interval=60s CMD curl -fsSL http://localhost:7878 || exit 1
 
@@ -15,3 +11,9 @@ RUN curl -fsSL "https://github.com/Radarr/Radarr/releases/download/v0.2.0.1358/R
     chmod -R u=rwX,go=rX "${APP_DIR}"
 
 COPY root/ /
+
+ARG COMMIT
+ARG TAG
+ARG APP
+
+ENV COMMIT="${COMMIT}" TAG="${TAG}" APP="${APP}"
