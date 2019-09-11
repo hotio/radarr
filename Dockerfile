@@ -12,8 +12,5 @@ RUN curl -fsSL "https://github.com/Radarr/Radarr/releases/download/v0.2.0.1358/R
 
 COPY root/ /
 
-ARG COMMIT
 ARG TAG
-ARG APP
-
-ENV COMMIT="${COMMIT}" TAG="${TAG}" APP="${APP}"
+ENV TAG="${TAG}"
