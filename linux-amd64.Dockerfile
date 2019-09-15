@@ -8,7 +8,9 @@ HEALTHCHECK --interval=60s CMD curl -fsSL http://localhost:7878 || exit 1
 
 COPY root/ /
 
+# https://github.com/Radarr/Radarr/releases
+ENV RADARR_VERSION=0.2.0.1358
+
 # install app
-RUN version=$(sed -n '1p' /versions/radarr) && \
-    curl -fsSL "https://github.com/Radarr/Radarr/releases/download/v${version}/Radarr.develop.${version}.linux.tar.gz" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
+RUN curl -fsSL "https://github.com/Radarr/Radarr/releases/download/v${RADARR_VERSION}/Radarr.develop.${RADARR_VERSION}.linux.tar.gz" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
     chmod -R u=rwX,go=rX "${APP_DIR}"
