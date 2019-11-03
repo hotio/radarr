@@ -6,17 +6,21 @@ if [[ "${VERSION}" != "image" ]]; then
         echo -e '\e[31m'"Incorrect mount detected! Aborting app installation for security reasons."'\e[0m'
         exit 1
     else
+        case "${ARCH}" in
+            linux-amd64)
+                architecture="x64"
+                ;;
+            linux-arm64)
+                architecture="arm64"
+                ;;
+            linux-arm)
+                architecture="arm"
+                ;;
+        esac
         case "${VERSION}" in
-            stable)
-                url=$(curl -fsSL "https://api.github.com/repos/radarr/radarr/releases" | jq -r .[0].assets[].browser_download_url | grep -o ".*Radarr.*.linux.tar.gz")
-                ;;
-            unstable)
-                url="https://radarr.aeonlucid.com/v1/download/nightly/linux"
-                ;;
-            unstable-appveyor)
-                jobid=$(curl -fsSL "https://ci.appveyor.com/api/projects/galli-leo/radarr-usby1/branch/develop" | jq -r '.build.jobs[0].jobId')
-                filename=$(curl -fsSL "https://ci.appveyor.com/api/buildjobs/${jobid}/artifacts" | jq -r '.[].fileName' | grep -o ".*Radarr.*.linux.tar.gz")
-                url="https://ci.appveyor.com/api/buildjobs/${jobid}/artifacts/${filename}"
+            stable|unstable)
+                radarr_version=$(curl -fsSL "https://radarr.lidarr.audio/v1/update/aphrodite/changes?os=linux" | jq -r '.[0].version')
+                url="https://radarr.lidarr.audio/v1/update/aphrodite/updatefile?version=${radarr_version}&os=linux&runtime=netcore&arch=${architecture}"
                 ;;
             *)
                 url="${VERSION}"
