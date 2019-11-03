@@ -19,8 +19,7 @@ if [[ "${VERSION}" != "image" ]]; then
         esac
         case "${VERSION}" in
             stable|unstable)
-                radarr_version=$(curl -fsSL "https://radarr.lidarr.audio/v1/update/aphrodite/changes?os=linux" | jq -r '.[0].version')
-                url="https://radarr.lidarr.audio/v1/update/aphrodite/updatefile?version=${radarr_version}&os=linux&runtime=netcore&arch=${architecture}"
+                url=$(curl -fsSL "https://radarr.lidarr.audio/v1/update/aphrodite/changes?os=linux&runtime=netcore&arch=${architecture}" | jq -r .[0].url)
                 ;;
             *)
                 url="${VERSION}"
