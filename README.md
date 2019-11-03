@@ -27,8 +27,8 @@ Possible values for `VERSION`:
 VERSION=image
 VERSION=stable
 VERSION=unstable
-VERSION=https://github.com/Radarr/Radarr/releases/download/v0.2.0.1120/Radarr.develop.0.2.0.1120.linux.tar.gz
-VERSION=file:///config/Radarr.develop.0.2.0.1120.linux.tar.gz
+VERSION=https://radarr.lidarr.audio/v1/update/aphrodite/updatefile?version=2.0.0.2145&os=linux&runtime=netcore&arch=x64
+VERSION=file:///config/Radarr.aphrodite.2.0.0.2145.linux-core-x64.tar.gz
 ```
 
 ## Executing your own scripts
