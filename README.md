@@ -9,7 +9,7 @@
 Just the basics to get the container running:
 
 ```shell
-docker run --rm --name radarr -p 7878:7878 -v /tmp/radarr:/config -e TZ=Etc/UTC hotio/radarr
+docker run --rm --name radarr -p 7878:7878 -v /tmp/radarr:/config -e TZ=Etc/UTC hotio/radarr:aphrodite
 ```
 
 The environment variables below are all optional, the values you see are the defaults.
@@ -18,17 +18,6 @@ The environment variables below are all optional, the values you see are the def
 -e PUID=1000
 -e PGID=1000
 -e UMASK=022
--e VERSION=image
-```
-
-Possible values for `VERSION`:
-
-```shell
-VERSION=image
-VERSION=stable
-VERSION=unstable
-VERSION=https://radarr.lidarr.audio/v1/update/aphrodite/updatefile?version=2.0.0.2145&os=linux&runtime=netcore&arch=x64
-VERSION=file:///config/Radarr.aphrodite.2.0.0.2145.linux-core-x64.tar.gz
 ```
 
 ## Executing your own scripts
