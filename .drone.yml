@@ -189,7 +189,7 @@ steps:
   image: plugins/manifest
   pull: always
   environment:
-    TAG_VERSION: 0.2.0.1358
+    TAG_VERSION: "0.2.0.1358"
   settings:
     ignore_missing: true
     username:
