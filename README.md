@@ -31,6 +31,16 @@ VERSION=https://github.com/Radarr/Radarr/releases/download/v0.2.0.1120/Radarr.de
 VERSION=file:///config/Radarr.develop.0.2.0.1120.linux.tar.gz
 ```
 
+## Tags
+
+| Tag       | Description                             |
+| ----------|-----------------------------------------|
+| latest    | Stable version                          |
+| master    | Stable version                          |
+| aphrodite | Unstable version, new UI like Sonarr V3 |
+
+You can also find tags that reference a commit or version number.
+
 ## Executing your own scripts
 
 If you have a need to do additional stuff when the container starts or stops, you can mount your script with `-v /docker/host/my-script.sh:/etc/cont-init.d/99-my-script` to execute your script on container start or `-v /docker/host/my-script.sh:/etc/cont-finish.d/99-my-script` to execute it when the container stops. An example script can be seen below.
