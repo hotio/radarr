@@ -26,6 +26,7 @@ The environment variables below are all optional, the values you see are the def
 | ----------|-----------------------------------------|
 | latest    | Stable version                          |
 | master    | Stable version                          |
+| unstable  | Unstable version                        |
 | aphrodite | Unstable version, new UI like Sonarr V3 |
 
 You can also find tags that reference a commit or version number.
