@@ -1,8 +1,7 @@
 # radarr
 
-[![GitHub](https://img.shields.io/badge/source-github-lightgrey?style=flat-square)](https://github.com/hotio/docker-radarr)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/radarr?style=flat-square)](https://hub.docker.com/r/hotio/radarr)
-[![Drone (cloud)](https://img.shields.io/drone/build/hotio/docker-radarr?style=flat-square)](https://cloud.drone.io/hotio/docker-radarr)
+[![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-radarr)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/radarr)](https://hub.docker.com/r/hotio/radarr)
 
 ## Starting the container
 
@@ -22,12 +21,12 @@ The environment variables below are all optional, the values you see are the def
 
 ## Tags
 
-| Tag       | Description                             |
-| ----------|-----------------------------------------|
-| latest    | The same as `stable`                    |
-| stable    | Stable version                          |
-| unstable  | Unstable version                        |
-| aphrodite | Unstable version, new UI like Sonarr V3 |
+| Tag       | Description                             | Build Status                                                                                                                                             |
+| ----------|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| latest    | The same as `stable`                    |                                                                                                                                                          |
+| stable    | Stable version                          | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-radarr/status.svg?ref=refs/heads/stable)](https://cloud.drone.io/hotio/docker-radarr)    |
+| unstable  | Unstable version                        | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-radarr/status.svg?ref=refs/heads/unstable)](https://cloud.drone.io/hotio/docker-radarr)  |
+| aphrodite | Unstable version, new UI like Sonarr V3 | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-radarr/status.svg?ref=refs/heads/aphrodite)](https://cloud.drone.io/hotio/docker-radarr) |
 
 You can also find tags that reference a commit or version number.
 
