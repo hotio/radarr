@@ -24,8 +24,8 @@ The environment variables below are all optional, the values you see are the def
 
 | Tag       | Description                             |
 | ----------|-----------------------------------------|
-| latest    | Stable version                          |
-| master    | Stable version                          |
+| latest    | The same as `stable`                    |
+| stable    | Stable version                          |
 | unstable  | Unstable version                        |
 | aphrodite | Unstable version, new UI like Sonarr V3 |
 
