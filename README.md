@@ -21,12 +21,12 @@ The environment variables below are all optional, the values you see are the def
 
 ## Tags
 
-| Tag       | Description                             | Build Status                                                                                                                                             |
-| ----------|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| latest    | The same as `stable`                    |                                                                                                                                                          |
-| stable    | Stable version                          | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-radarr/status.svg?ref=refs/heads/stable)](https://cloud.drone.io/hotio/docker-radarr)    |
-| unstable  | Unstable version                        | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-radarr/status.svg?ref=refs/heads/unstable)](https://cloud.drone.io/hotio/docker-radarr)  |
-| aphrodite | Unstable version, new UI like Sonarr V3 | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-radarr/status.svg?ref=refs/heads/aphrodite)](https://cloud.drone.io/hotio/docker-radarr) |
+| Tag       | Description                             | Build Status                                                                                                                                             | Last Updated                                                                                            |
+| ----------|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| latest    | The same as `stable`                    |                                                                                                                                                          |                                                                                                         |
+| stable    | Stable version                          | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-radarr/status.svg?ref=refs/heads/stable)](https://cloud.drone.io/hotio/docker-radarr)    | ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/hotio/docker-radarr/stable)    |
+| unstable  | Unstable version                        | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-radarr/status.svg?ref=refs/heads/unstable)](https://cloud.drone.io/hotio/docker-radarr)  | ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/hotio/docker-radarr/unstable)  |
+| aphrodite | Unstable version, new UI like Sonarr V3 | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-radarr/status.svg?ref=refs/heads/aphrodite)](https://cloud.drone.io/hotio/docker-radarr) | ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/hotio/docker-radarr/aphrodite) |
 
 You can also find tags that reference a commit or version number.
 
