@@ -285,6 +285,9 @@ depends_on:
 kind: pipeline
 name: discord
 
+clone:
+  disable: true
+
 trigger:
   status:
   - success
