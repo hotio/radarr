@@ -14,7 +14,7 @@ const puppeteer = require("puppeteer");
   });
   const page = await browser.newPage();
   await page.setViewport({ width: 1920, height: 2000 });
-  await page.goto("http://service:7878", { waitUntil: "networkidle2" });
+  await page.goto("http://service:7878/system/status", { waitUntil: "networkidle2" });
   await page.screenshot({ path: "/tmp/screenshot.png" });
   await browser.close();
 })();
