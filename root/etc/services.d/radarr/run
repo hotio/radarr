@@ -3,7 +3,6 @@
 
 umask "${UMASK}"
 
-
 redirect_cmd() {
     if [[ "${DEBUG}" == "yes" ]]; then
         "$@"
