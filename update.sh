@@ -23,8 +23,8 @@ const puppeteer = require('puppeteer');
   await page.goto("${SERVICE_IP}", { waitUntil: "networkidle${NETWORK_IDLE}" });
   await page.evaluate(() => {
     const div = document.createElement('div');
-    div.innerHTML = '<h3 style="margin-top:0;">${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}</h3>Commit: ${DRONE_COMMIT_SHA:0:7}<br>Build: #${DRONE_BUILD_NUMBER}<br>Timestamp: $(date -u --iso-8601=seconds)';
-    div.style.cssText = "all: initial; border-radius: 4px; font-weight: normal; font-size: normal; font-family: monospace; padding: 10px; color: black; position: fixed; bottom: 10px; right: 10px; background-color: #e7f3fe; border-left: 6px solid #2196F3; z-index: 10000";
+    div.innerHTML = 'Image: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}<br>Commit: ${DRONE_COMMIT_SHA:0:7}<br>Build: #${DRONE_BUILD_NUMBER}<br>Timestamp: $(date -u --iso-8601=seconds)';
+    div.style.cssText = "all: initial !important; border-radius: 4px !important; font-weight: normal !important; font-size: normal !important; font-family: monospace !important; padding: 10px !important; color: black !important; position: fixed !important; bottom: 10px !important; right: 10px !important; background-color: #e7f3fe !important; border-left: 6px solid #2196F3 !important; z-index: 10000 !important";
     document.body.appendChild(div);
   });
   await page.screenshot({ path: "/drone/src/screenshot.png", fullPage: true });
