@@ -1,4 +1,4 @@
-FROM hotio/dotnetcore
+FROM hotio/dotnetcore:stable-linux-amd64
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
