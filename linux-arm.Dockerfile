@@ -1,4 +1,4 @@
-FROM hotio/dotnetcore:stable-linux-arm
+FROM hotio/dotnetcore@sha256:9b72ffe7cad1d0433c4e5781849b7ed927166700afa6f677d5fa57eba2199486
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
