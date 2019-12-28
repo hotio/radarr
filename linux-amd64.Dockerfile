@@ -1,4 +1,4 @@
-FROM hotio/base@sha256:fceb71e77fa3ec310e0dd4de45127f5f9cc40d52e1b11652ef19e0f7006014d1
+FROM hotio/dotnetcore:focal
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
@@ -7,7 +7,7 @@ EXPOSE 7878
 # install packages
 RUN apt update && \
     apt install -y --no-install-recommends --no-install-suggests \
-        libssl1.1 libicu63 libmediainfo0v5 && \
+        libmediainfo0v5 && \
 # clean up
     apt autoremove -y && \
     apt clean && \

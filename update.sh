@@ -37,7 +37,7 @@ elif [[ ${1} == "checkservice" ]]; then
     curl -fsSL ${SERVICE} > /dev/null
 elif [[ ${1} == "checkdigests" ]]; then
     mkdir ~/.docker && echo '{"experimental": "enabled"}' > ~/.docker/config.json
-    image="hotio/base"
+    image="hotio/dotnetcore"
     tag="focal"
     manifest=$(docker manifest inspect ${image}:${tag})
     [[ -z ${manifest} ]] && exit 1
