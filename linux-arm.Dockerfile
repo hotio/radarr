@@ -1,4 +1,4 @@
-FROM hotio/base:focal
+FROM hotio/base@sha256:a1fed55b75a4599269a9c00561be2f185d46326189c8a2bcf78b83d8261a2708
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
