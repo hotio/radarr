@@ -1,4 +1,4 @@
-FROM hotio/dotnetcore:focal
+FROM hotio/dotnetcore@sha256:11cadfb9828d49c6d3b4d38f47d0974a71529efb20b9cdb5c60d079c9cb558d5
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
