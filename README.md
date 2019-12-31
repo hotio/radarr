@@ -9,7 +9,7 @@
 Just the basics to get the container running:
 
 ```shell
-docker run --rm --name radarr -p 7878:7878 -v /tmp/radarr:/config hotio/radarr
+docker run --rm --name radarr -p 7878:7878 -v /<host_folder>:/config hotio/radarr
 ```
 
 The environment variables below are all optional, the values you see are the defaults.
