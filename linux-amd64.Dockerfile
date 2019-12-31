@@ -14,7 +14,7 @@ RUN apt update && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
 # https://radarr.lidarr.audio/v1/update/aphrodite/changes?os=linux
-ARG RADARR_VERSION=3.0.0.2429
+ARG RADARR_VERSION=3.0.0.2431
 
 # install app
 RUN curl -fsSL "https://radarr.lidarr.audio/v1/update/aphrodite/updatefile?version=${RADARR_VERSION}&os=linux&runtime=netcore&arch=x64" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
