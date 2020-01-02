@@ -1,4 +1,4 @@
-FROM hotio/dotnetcore@sha256:82bf4846e32d50ff510bc688b32e948f836c33b3fc24d91827c90954f9a7556f
+FROM hotio/dotnetcore@sha256:785f0a47d94564cc3a2ae0d838f1ed7184cc082cff2b021b9da36a6d5b142091
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
@@ -14,7 +14,7 @@ RUN apt update && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
 # https://radarr.lidarr.audio/v1/update/aphrodite/changes?os=linux
-ARG RADARR_VERSION=3.0.0.2415
+ARG RADARR_VERSION=3.0.0.2436
 
 # install app
 RUN curl -fsSL "https://radarr.lidarr.audio/v1/update/aphrodite/updatefile?version=${RADARR_VERSION}&os=linux&runtime=netcore&arch=arm" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
