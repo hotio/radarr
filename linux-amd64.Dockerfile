@@ -13,7 +13,6 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-# https://radarr.lidarr.audio/v1/update/aphrodite/changes?os=linux
 ARG RADARR_VERSION=3.0.0.2440
 
 # install app
