@@ -7,7 +7,7 @@ EXPOSE 7878
 # install packages
 RUN apt update && \
     apt install -y --no-install-recommends --no-install-suggests \
-        libmediainfo0v5 && \
+        mediainfo && \
 # clean up
     apt autoremove -y && \
     apt clean && \
