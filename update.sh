@@ -2,7 +2,6 @@
 
 if [[ ${1} == "screenshot" ]]; then
     SERVICE_IP="http://$(dig +short service):7878/system/status"
-    echo "${SERVICE_IP}"
     NETWORK_IDLE="2"
     cd /usr/src/app && node <<EOF
 const puppeteer = require('puppeteer');
