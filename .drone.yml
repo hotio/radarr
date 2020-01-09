@@ -307,7 +307,6 @@ steps:
   commands:
     - apk add --no-cache curl@edge bind-tools@edge bash@edge coreutils@edge
     - bash update.sh checkservice
-    - echo "IP $(dig +short service)"
     - bash update.sh screenshot
   failure: ignore
 
