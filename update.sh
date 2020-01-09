@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ ${1} == "screenshot" ]]; then
-    SERVICE_IP="http://$(dig +short service):7878/system/status"
+    SERVICE_IP="http://$(ping -c1 -4 service | sed -nE 's/^PING[^(]+\(([^)]+)\).*/\1/p'):7878/system/status"
     NETWORK_IDLE="2"
     cd /usr/src/app && node <<EOF
 const puppeteer = require('puppeteer');
