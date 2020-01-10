@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        branch: [stable, unstable, aphrodite]
+        branch: [stable, unstable, aphrodite, custom-formats-2, upgrade-sqlite, aphrodite-cast-crew-collections, aphrodite-mediainfo]
     steps:
     - uses: actions/checkout@master
       with:
