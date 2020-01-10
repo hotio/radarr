@@ -1,0 +1,26 @@
+name: Version check
+on:
+  schedule:
+    - cron:  '*/5 * * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        branch: [pr]
+    steps:
+    - uses: actions/checkout@master
+      with:
+        ref: ${{ matrix.branch }}
+    - name: Update files
+      run: |
+        bash update.sh
+      id: update_files
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v2.5.0
+      with:
+        commit_message: ${{ format('Updated to version - {0}', steps.update_files.outputs.version) }}
+        branch: ${{ matrix.branch }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
