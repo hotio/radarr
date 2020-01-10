@@ -1,14 +1,14 @@
 name: Version check
 on:
   schedule:
-    - cron:  '17,47 * * * *'
+    - cron:  '*/5 * * * *'
 
 jobs:
   update:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        branch: [stable, unstable, aphrodite]
+        branch: [custom-formats-2, upgrade-sqlite, aphrodite-cast-crew-collections, aphrodite-mediainfo]
     steps:
     - uses: actions/checkout@master
       with:
