@@ -42,7 +42,6 @@ elif [[ ${1} == "checkservice" ]]; then
     curl -fsSL ${SERVICE} > /dev/null
 else
     branch=$(curl -fsSL "https://api.github.com/repos/radarr/radarr/pulls?state=open&base=aphrodite" | jq -r 'sort_by(.updated_at) | .[] | select(.head.repo.full_name == "Radarr/Radarr") | .head.ref' | tail -n 1)
-    branch=aphrodite-mediainfo
     version=$(curl -fsSL "https://radarr.lidarr.audio/v1/update/${branch}/changes?os=linux" | jq -r .[0].version)
     [[ -z ${version} ]] && exit 1
     find . -type f -name '*.Dockerfile' -exec sed -i "s/ARG RADARR_VERSION=.*$/ARG RADARR_VERSION=${version}/g" {} \;
