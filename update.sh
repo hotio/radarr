@@ -40,19 +40,13 @@ elif [[ ${1} == "checkservice" ]]; then
     SERVICE="http://service:7878"
     currenttime=$(date +%s); maxtime=$((currenttime+60)); while (! curl -fsSL ${SERVICE} > /dev/null) && [[ "$currenttime" -lt "$maxtime" ]]; do sleep 1; currenttime=$(date +%s); done
     curl -fsSL ${SERVICE} > /dev/null
-elif [[ ${1} == "checkdigests" ]]; then
-    mkdir ~/.docker && echo '{"experimental": "enabled"}' > ~/.docker/config.json
-    image="hotio/dotnetcore"
-    tag="focal"
-    manifest=$(docker manifest inspect ${image}:${tag})
-    [[ -z ${manifest} ]] && exit 1
-    digest=$(echo "${manifest}" | jq -r '.manifests[] | select (.platform.architecture == "amd64" and .platform.os == "linux").digest') && sed -i "s#FROM .*\$#FROM ${image}@${digest}#g" ./linux-amd64.Dockerfile && echo "${digest}"
-    digest=$(echo "${manifest}" | jq -r '.manifests[] | select (.platform.architecture == "arm" and .platform.os == "linux").digest')   && sed -i "s#FROM .*\$#FROM ${image}@${digest}#g" ./linux-arm.Dockerfile   && echo "${digest}"
-    digest=$(echo "${manifest}" | jq -r '.manifests[] | select (.platform.architecture == "arm64" and .platform.os == "linux").digest') && sed -i "s#FROM .*\$#FROM ${image}@${digest}#g" ./linux-arm64.Dockerfile && echo "${digest}"
 else
-    version=$(curl -fsSL "https://radarr.lidarr.audio/v1/update/aphrodite/changes?os=linux" | jq -r .[0].version)
+    branch=$(curl -fsSL "https://api.github.com/repos/radarr/radarr/pulls?state=open&base=aphrodite" | jq -r 'sort_by(.updated_at) | .[] | select(.head.repo.full_name == "Radarr/Radarr") | .head.ref' | tail -n 1)
+    version=$(curl -fsSL "https://radarr.lidarr.audio/v1/update/${branch}/changes?os=linux" | jq -r .[0].version)
     [[ -z ${version} ]] && exit 1
     find . -type f -name '*.Dockerfile' -exec sed -i "s/ARG RADARR_VERSION=.*$/ARG RADARR_VERSION=${version}/g" {} \;
-    sed -i "s/{TAG_VERSION=.*}$/{TAG_VERSION=${version}}/g" .drone.yml
-    echo "##[set-output name=version;]${version}"
+    find . -type f -name '*.Dockerfile' -exec sed -i "s/ARG RADARR_BRANCH=.*$/ARG RADARR_BRANCH=${branch}/g" {} \;
+    sed -i "s/{TAG_VERSION=.*}$/{TAG_VERSION=${branch}-${version}}/g" .drone.yml
+    sed -i "s/{TAG_BRANCH=.*}$/{TAG_BRANCH=${branch}}/g" .drone.yml
+    echo "##[set-output name=version;]${branch}-${version}"
 fi

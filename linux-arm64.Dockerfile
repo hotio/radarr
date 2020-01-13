@@ -1,4 +1,4 @@
-FROM hotio/dotnetcore@sha256:b3fc4942753d796018b9e680014c5439e4a0e8e9b9c8e232eb256a3bb6286f43
+FROM hotio/dotnetcore:focal
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
@@ -13,7 +13,8 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG RADARR_VERSION=3.0.0.2515
+ARG RADARR_VERSION=3.0.0.2519
+ARG RADARR_BRANCH=new-radarr-import
 
 # install app
 RUN curl -fsSL "https://radarr.lidarr.audio/v1/update/aphrodite/updatefile?version=${RADARR_VERSION}&os=linux&runtime=netcore&arch=arm64" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
