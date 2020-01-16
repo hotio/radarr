@@ -13,7 +13,7 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG RADARR_VERSION=null
+ARG RADARR_VERSION=3.0.0.2528
 ARG RADARR_BRANCH=fix-tmdb-implementation-name
 
 # install app
