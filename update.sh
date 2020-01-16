@@ -44,6 +44,7 @@ else
     branch=$(curl -fsSL "https://api.github.com/repos/radarr/radarr/pulls?state=open&base=aphrodite" | jq -r 'sort_by(.updated_at) | .[] | select(.head.repo.full_name == "Radarr/Radarr") | .head.ref' | tail -n 1)
     version=$(curl -fsSL "https://radarr.lidarr.audio/v1/update/${branch}/changes?os=linux" | jq -r .[0].version)
     [[ -z ${version} ]] && exit 1
+    [[ ${version} == null ]] && exit 1
     find . -type f -name '*.Dockerfile' -exec sed -i "s/ARG RADARR_VERSION=.*$/ARG RADARR_VERSION=${version}/g" {} \;
     find . -type f -name '*.Dockerfile' -exec sed -i "s/ARG RADARR_BRANCH=.*$/ARG RADARR_BRANCH=${branch}/g" {} \;
     sed -i "s/{TAG_VERSION=.*}$/{TAG_VERSION=${branch}-${version}}/g" .drone.yml
