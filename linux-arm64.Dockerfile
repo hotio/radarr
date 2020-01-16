@@ -13,8 +13,8 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG RADARR_VERSION=null
-ARG RADARR_BRANCH=fix-no-delete-if-no-root
+ARG RADARR_VERSION=3.0.0.2521
+ARG RADARR_BRANCH=aphrodite-cast-crew-collections
 
 # install app
 RUN curl -fsSL "https://radarr.lidarr.audio/v1/update/${RADARR_BRANCH}/updatefile?version=${RADARR_VERSION}&os=linux&runtime=netcore&arch=arm64" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
