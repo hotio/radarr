@@ -10,6 +10,8 @@ done
 UN_RADARR_0_URL="http://localhost:7878"                                                                              && export UN_RADARR_0_URL
 UN_RADARR_0_API_KEY="$(grep -o '<ApiKey>.*</ApiKey>' < "${CONFIG_DIR}/app/config.xml" | sed -e 's/<\/\?ApiKey>//g')" && export UN_RADARR_0_API_KEY
 
+[[ ! -f "${CONFIG_DIR}/unpackerr.log" ]] && touch "${CONFIG_DIR}/unpackerr.log" && chown hotio:hotio "${CONFIG_DIR}/unpackerr.log"
+
 redirect_cmd() {
     if [[ "${DEBUG}" == "yes" ]]; then
         "$@" 2>&1 | tee -a "${CONFIG_DIR}/unpackerr.log"
