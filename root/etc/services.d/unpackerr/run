@@ -3,8 +3,8 @@
 
 umask "${UMASK}"
 
-while [[ ! -f "${CONFIG_DIR}/app/config.xml" ]]; do
-    sleep 2
+while [[ ! -f "${CONFIG_DIR}/app/config.xml" ]] || [[ ${UNPACKERR} == "disabled" ]]; do
+    sleep 10
 done
 
 UN_RADARR_0_URL="http://localhost:7878"                                                                              && export UN_RADARR_0_URL

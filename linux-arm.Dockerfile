@@ -2,6 +2,8 @@ FROM hotio/dotnetcore@sha256:58634feb841d0892fb38d8841506ee5517d6a400d079b140c35
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
+ENV UNPACKERR="disabled"
+
 EXPOSE 7878
 
 # install packages
