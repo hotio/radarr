@@ -13,6 +13,11 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
+ARG UPACKERR_VERSION=0.7.0-beta1
+
+# install unpackerr
+RUN curl -fsSL "https://github.com/davidnewhall/unpackerr/releases/download/v${UNPACKERR_VERSION}/unpackerr.arm64.linux.gz" | gunzip | dd of=/usr/local/bin/unpackerr && chmod 755 /usr/local/bin/unpackerr
+
 ARG RADARR_VERSION=3.0.0.2615
 
 # install app
