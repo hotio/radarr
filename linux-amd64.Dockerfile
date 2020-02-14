@@ -2,8 +2,6 @@ FROM hotio/dotnetcore@sha256:54a6066be237320fcd5a9602f426667acda9e1fb0509a419cea
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
-ENV UNPACKERR="disabled"
-
 EXPOSE 7878
 
 # install packages
@@ -14,11 +12,6 @@ RUN apt update && \
     apt autoremove -y && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
-
-ARG UNPACKERR_VERSION=0.7.0-beta1
-
-# install unpackerr
-RUN curl -fsSL "https://github.com/davidnewhall/unpackerr/releases/download/v${UNPACKERR_VERSION}/unpackerr.amd64.linux.gz" | gunzip | dd of=/usr/local/bin/unpackerr && chmod 755 /usr/local/bin/unpackerr
 
 ARG RADARR_VERSION=3.0.0.2615
 
