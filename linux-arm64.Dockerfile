@@ -13,7 +13,7 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG RADARR_VERSION=3.0.0.2626
+ARG RADARR_VERSION=3.0.0.2627
 ARG RADARR_BRANCH=improve-manual-movie-select
 
 # install app
