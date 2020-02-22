@@ -1,5 +1,7 @@
 # radarr
 
+![Logo](https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/radarr.png)  
+
 [![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-radarr)
 [![Docker Pulls](https://img.shields.io/docker/pulls/hotio/radarr)](https://hub.docker.com/r/hotio/radarr)
 [![Discord](https://img.shields.io/discord/610068305893523457?color=738ad6&label=discord&logo=discord&logoColor=white)](https://discord.gg/3SnkuKp)
