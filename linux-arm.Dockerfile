@@ -13,7 +13,7 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG RADARR_VERSION=3.0.0.2652
+ARG RADARR_VERSION=3.0.0.2653
 ARG RADARR_BRANCH=new-radarr-import
 
 # install app
