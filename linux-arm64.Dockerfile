@@ -13,8 +13,8 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG RADARR_VERSION=3.0.0.2662
-ARG RADARR_BRANCH=fix-year
+ARG RADARR_VERSION=3.0.0.2661
+ARG RADARR_BRANCH=new-quality-preferred
 
 # install app
 RUN curl -fsSL "https://radarr.lidarr.audio/v1/update/${RADARR_BRANCH}/updatefile?version=${RADARR_VERSION}&os=linux&runtime=netcore&arch=arm64" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
