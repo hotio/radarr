@@ -13,7 +13,7 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG RADARR_VERSION=3.0.0.2691
+ARG RADARR_VERSION=3.0.0.2705
 ARG RADARR_BRANCH=branch-health-check
 
 # install app
