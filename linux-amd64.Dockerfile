@@ -13,7 +13,7 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG RADARR_VERSION=3.0.0.2722
+ARG RADARR_VERSION=3.0.0.2760
 ARG RADARR_BRANCH=aphrodite-language-improvements
 
 # install app
