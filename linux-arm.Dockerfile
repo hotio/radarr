@@ -20,7 +20,7 @@ ARG RADARR_BRANCH=aphrodite-package-info
 RUN mkdir "${APP_DIR}/bin" && \
     curl -fsSL "https://radarr.lidarr.audio/v1/update/${RADARR_BRANCH}/updatefile?version=${RADARR_VERSION}&os=linux&runtime=netcore&arch=arm" | tar xzf - -C "${APP_DIR}/bin" --strip-components=1 && \
     rm -rf "${APP_DIR}/bin/Radarr.Update" && \
-    echo "PackageVersion=${RADARR_VERSION}\nPackageAuthor=hotio\nReleaseVersion=${RADARR_VERSION}\nUpdateMethod=Docker\nBranch=${RADARR_BRANCH}" > "${APP_DIR}/package_info" && \
+    echo "PackageVersion=${RADARR_VERSION}\nPackageAuthor=hotio\nReleaseVersion=${RADARR_VERSION}\nUpdateMethod=Docker\nBranch=aphrodite" > "${APP_DIR}/package_info" && \
     chmod -R u=rwX,go=rX "${APP_DIR}"
 
 COPY root/ /
