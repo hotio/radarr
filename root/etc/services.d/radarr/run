@@ -12,4 +12,4 @@ redirect_cmd() {
 }
 
 # shellcheck disable=SC2086
-redirect_cmd exec s6-setuidgid hotio "${APP_DIR}/Radarr" --nobrowser --data="${CONFIG_DIR}/app" ${ARGS}
+redirect_cmd exec s6-setuidgid hotio "${APP_DIR}/bin/Radarr" --nobrowser --data="${CONFIG_DIR}/app" ${ARGS}
