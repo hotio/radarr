@@ -13,8 +13,8 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG RADARR_VERSION=3.0.0.2783
-ARG RADARR_BRANCH=new-quality-preferred
+ARG RADARR_VERSION=3.0.0.2413
+ARG RADARR_BRANCH=upgrade-sqlite
 
 # install app
 RUN mkdir "${APP_DIR}/bin" && \

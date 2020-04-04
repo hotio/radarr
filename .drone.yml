@@ -36,7 +36,7 @@ steps:
     password:
       from_secret: docker_password
     repo: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}
-    cache_from: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${TAG_BRANCH=new-quality-preferred}
+    cache_from: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${TAG_BRANCH=upgrade-sqlite}
     dockerfile: ${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}.Dockerfile
     tags:
       - ${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}-${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}
@@ -100,7 +100,7 @@ steps:
     password:
       from_secret: docker_password
     repo: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}
-    cache_from: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${TAG_BRANCH=new-quality-preferred}
+    cache_from: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${TAG_BRANCH=upgrade-sqlite}
     dockerfile: ${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}.Dockerfile
     tags:
       - ${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}-${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}
@@ -164,7 +164,7 @@ steps:
     password:
       from_secret: docker_password
     repo: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}
-    cache_from: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${TAG_BRANCH=new-quality-preferred}
+    cache_from: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${TAG_BRANCH=upgrade-sqlite}
     dockerfile: ${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}.Dockerfile
     tags:
       - ${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}-${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}
@@ -246,7 +246,7 @@ steps:
       from_secret: docker_username
     password:
       from_secret: docker_password
-    target: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${TAG_BRANCH=new-quality-preferred}
+    target: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${TAG_BRANCH=upgrade-sqlite}
     template: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}-OS-ARCH
     platforms:
       - linux/amd64
@@ -278,7 +278,7 @@ steps:
       from_secret: docker_username
     password:
       from_secret: docker_password
-    target: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${TAG_VERSION=new-quality-preferred-3.0.0.2783}
+    target: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${TAG_VERSION=upgrade-sqlite-3.0.0.2413}
     template: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}-OS-ARCH
     platforms:
       - linux/amd64
@@ -309,7 +309,7 @@ steps:
     - bash update.sh checkservice
     - bash update.sh screenshot
   environment:
-    PR_BRANCH: -${TAG_BRANCH=new-quality-preferred}
+    PR_BRANCH: -${TAG_BRANCH=upgrade-sqlite}
   failure: ignore
 
 - name: discord
@@ -320,8 +320,8 @@ steps:
       from_secret: discord_id
     DISCORD_TOKEN:
       from_secret: discord_token
-    VERSION_FIELD: ${TAG_VERSION=new-quality-preferred-3.0.0.2783}
-    PR_BRANCH: -${TAG_BRANCH=new-quality-preferred}
+    VERSION_FIELD: ${TAG_VERSION=upgrade-sqlite-3.0.0.2413}
+    PR_BRANCH: -${TAG_BRANCH=upgrade-sqlite}
   commands:
     - curl -fsSL https://gist.githubusercontent.com/hotio/d490b6447ddde9634475ddacbc85d8c1/raw/discord-build-notify.sh > discord-build-notify.sh
     - bash discord-build-notify.sh
