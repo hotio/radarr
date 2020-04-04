@@ -13,8 +13,8 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG RADARR_VERSION=3.0.0.2776
-ARG RADARR_BRANCH=process-downloads-seperate
+ARG RADARR_VERSION=3.0.0.2770
+ARG RADARR_BRANCH=aphrodite-package-info
 
 # install app
 RUN mkdir "${APP_DIR}/bin" && \
