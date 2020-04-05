@@ -13,8 +13,8 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG RADARR_VERSION=3.0.0.2791
-ARG RADARR_BRANCH=fix-subtitle-pending-delete
+ARG RADARR_VERSION=3.0.0.2788
+ARG RADARR_BRANCH=process-downloads-seperate
 ARG PACKAGE_VERSION={RADARR_VERSION}
 
 # install app
