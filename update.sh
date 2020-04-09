@@ -52,6 +52,6 @@ elif [[ ${1} == "checkdigests" ]]; then
 else
     version=$(curl -fsSL "https://radarr.lidarr.audio/v1/update/aphrodite/changes?os=linux" | jq -r .[0].version)
     [[ -z ${version} ]] && exit 1
-    sed -i "s/{RADARR_VERSION=.*}$/{RADARR_VERSION=${version}}/g" .drone.yml
+    sed -i "s/{RADARR_VERSION=[^}]*}/{RADARR_VERSION=${version}}/g" .drone.yml
     echo "##[set-output name=version;]${version}"
 fi
