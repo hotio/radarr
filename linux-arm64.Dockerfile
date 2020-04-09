@@ -13,7 +13,7 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG RADARR_VERSION=3.0.0.2806
+ARG RADARR_VERSION
 ARG PACKAGE_VERSION=${RADARR_VERSION}
 
 # install app
