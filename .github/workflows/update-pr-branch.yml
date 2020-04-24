@@ -1,11 +1,11 @@
 name: Version check
 on:
   schedule:
-    - cron:  '*/5 * * * *'
+    - cron:  '5 * * * *'
 
 jobs:
   update:
-    timeout-minutes: 3
+    timeout-minutes: 10
     runs-on: ubuntu-latest
     strategy:
       matrix:
