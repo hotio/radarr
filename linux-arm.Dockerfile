@@ -4,7 +4,7 @@ EXPOSE 7878
 
 RUN apk add --no-cache libintl libmediainfo icu-libs sqlite-libs
 
-ARG RADARR_VERSION
+ARG RADARR_VERSION=testbuild
 ARG PACKAGE_VERSION=${RADARR_VERSION}
 
 # install app
