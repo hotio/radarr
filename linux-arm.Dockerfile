@@ -1,17 +1,8 @@
-FROM hotio/dotnetcore@sha256:3ed4d3982ca7336a7727ab4dd09669861f20c65a319db813b4770371c40e5bcd
-
-ARG DEBIAN_FRONTEND="noninteractive"
+FROM hotio/base@sha256:dba94df91a2c476ec1e3717a2f76fd01ef5b9fcf1a1baa0efbac5e3c5b5f77d4
 
 EXPOSE 7878
 
-# install packages
-RUN apt update && \
-    apt install -y --no-install-recommends --no-install-suggests \
-        libmediainfo0v5 && \
-# clean up
-    apt autoremove -y && \
-    apt clean && \
-    rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
+RUN apk add --no-cache libmediainfo icu-libs
 
 ARG RADARR_VERSION
 ARG PACKAGE_VERSION=${RADARR_VERSION}
