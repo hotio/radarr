@@ -2,9 +2,9 @@ FROM hotio/base@sha256:ad79f26c53e2c7e1ed36dba0a0686990c503835134c63d9ed5aa7951e
 
 EXPOSE 7878
 
-RUN apk add --no-cache libintl libmediainfo icu-libs sqlite-libs coreutils
+RUN apk add --no-cache libintl libmediainfo icu-libs sqlite-libs
 
-ARG RADARR_VERSION=testbuild
+ARG RADARR_VERSION
 ARG PACKAGE_VERSION=${RADARR_VERSION}
 
 # install app
