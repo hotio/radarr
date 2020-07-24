@@ -1,8 +1,8 @@
 FROM hotio/base@sha256:dba94df91a2c476ec1e3717a2f76fd01ef5b9fcf1a1baa0efbac5e3c5b5f77d4
 
 EXPOSE 7878
-ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=true
-RUN apk add --no-cache libintl libmediainfo sqlite-libs
+
+RUN apk add --no-cache libintl libmediainfo sqlite-libs icu-libs
 
 ARG RADARR_VERSION
 ARG PACKAGE_VERSION=${RADARR_VERSION}
