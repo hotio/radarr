@@ -1,8 +1,9 @@
-FROM hotio/dotnetcore:focal
+FROM hotio/base:focal
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
 EXPOSE 7878
+ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=true
 
 # install packages
 RUN apt update && \
