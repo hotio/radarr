@@ -3,12 +3,11 @@ FROM hotio/base@sha256:4f26fe7bb656f83929e2da7622aed5267975bcf8ee523b6f3068ca024
 ARG DEBIAN_FRONTEND="noninteractive"
 
 EXPOSE 7878
-ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=true
 
 # install packages
 RUN apt update && \
     apt install -y --no-install-recommends --no-install-suggests \
-        libmediainfo0v5 && \
+        libmediainfo0v5 libicu66 && \
 # clean up
     apt autoremove -y && \
     apt clean && \
