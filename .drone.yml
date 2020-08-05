@@ -41,7 +41,7 @@ steps:
     tags:
       - ${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}-${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}
     build_args:
-      - RADARR_VERSION=${RADARR_VERSION=3.0.0.3366}
+      - RADARR_VERSION=${RADARR_VERSION=3.0.0.3367}
       - RADARR_BRANCH=${RADARR_BRANCH=parser-improvements-2}
       - PACKAGE_VERSION=${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}
 
@@ -109,7 +109,7 @@ steps:
     tags:
       - ${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}-${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}
     build_args:
-      - RADARR_VERSION=${RADARR_VERSION=3.0.0.3366}
+      - RADARR_VERSION=${RADARR_VERSION=3.0.0.3367}
       - RADARR_BRANCH=${RADARR_BRANCH=parser-improvements-2}
       - PACKAGE_VERSION=${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}
 
@@ -177,7 +177,7 @@ steps:
     tags:
       - ${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}-${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}
     build_args:
-      - RADARR_VERSION=${RADARR_VERSION=3.0.0.3366}
+      - RADARR_VERSION=${RADARR_VERSION=3.0.0.3367}
       - RADARR_BRANCH=${RADARR_BRANCH=parser-improvements-2}
       - PACKAGE_VERSION=${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}
 
@@ -290,7 +290,7 @@ steps:
       from_secret: docker_username
     password:
       from_secret: docker_password
-    target: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${RADARR_BRANCH=parser-improvements-2}-${RADARR_VERSION=3.0.0.3366}
+    target: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${RADARR_BRANCH=parser-improvements-2}-${RADARR_VERSION=3.0.0.3367}
     template: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}-OS-ARCH
     platforms:
       - linux/amd64
@@ -323,7 +323,7 @@ steps:
     - bash update.sh checkservice
     - bash update.sh screenshot
   environment:
-    VERSION_FIELD: ${RADARR_VERSION=3.0.0.3366}
+    VERSION_FIELD: ${RADARR_VERSION=3.0.0.3367}
     PR_BRANCH: -${RADARR_BRANCH=parser-improvements-2}
   failure: ignore
 
@@ -335,7 +335,7 @@ steps:
       from_secret: discord_id
     DISCORD_TOKEN:
       from_secret: discord_token
-    VERSION_FIELD: ${RADARR_VERSION=3.0.0.3366}
+    VERSION_FIELD: ${RADARR_VERSION=3.0.0.3367}
     PR_BRANCH: -${RADARR_BRANCH=parser-improvements-2}
   commands:
     - curl -fsSL https://gist.githubusercontent.com/hotio/d490b6447ddde9634475ddacbc85d8c1/raw/discord-build-notify.sh > discord-build-notify.sh
