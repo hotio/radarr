@@ -1,4 +1,4 @@
-FROM hotio/base@sha256:83ea9215c846f38a684a44bb3410bb3edd73e777b912f5936280cdbd7c5103b0
+FROM hotio/base@sha256:b3ad9be5c5d0f488479fe9b1315029c8a6e8badafea5981ac6593a92d8d50baa
 
 EXPOSE 7878
 
