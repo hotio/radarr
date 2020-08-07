@@ -55,7 +55,7 @@ jobs:
 
       - name: Prepare for tests
         run: |
-          docker run --rm --privileged multiarch/qemu-user-static:4.1.1-1 --reset -p yes
+          docker run --rm --privileged multiarch/qemu-user-static:4.1.0-1 --reset -p yes
 
       - name: List installed packages
         run: |
