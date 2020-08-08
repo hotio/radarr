@@ -130,9 +130,7 @@ jobs:
           app_url="http://localhost:7878/system/status"
           docker run --rm --network host -d --name service -e DEBUG="yes" ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}
           currenttime=$(date +%s); maxtime=$((currenttime+60)); while (! curl -fsSL "${app_url}" > /dev/null) && [[ "$currenttime" -lt "$maxtime" ]]; do sleep 1; currenttime=$(date +%s); done
-          echo "cd /usr/src/app && cat /git/puppeteer.js | node" > "${GITHUB_WORKSPACE}/screenshot.sh"
-          docker run --rm --network host --entrypoint="" -u $(id -u $USER) -v ${GITHUB_WORKSPACE}:/git zenika/alpine-chrome:with-puppeteer sh /git/screenshot.sh
-          #true
+          docker run --rm --network host --entrypoint="" -u $(id -u $USER) -v ${GITHUB_WORKSPACE}:/usr/src/app/src zenika/alpine-chrome:with-puppeteer node src/puppeteer.js
 
       - name: Send discord notification
         env:
