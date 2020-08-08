@@ -139,4 +139,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           curl -u "${GITHUB_REPOSITORY%/*}:${GITHUB_TOKEN}" -fsSL https://gist.githubusercontent.com/${GITHUB_REPOSITORY%/*}/3d98159d47e0bf5eccbff221f1288472/raw/discord-action-notify.sh > discord-action-notify.sh
-          export VERSION_FIELD=${RADARR_VERSION=3.0.0.3381} && bash discord-action-notify.sh
+          VERSION_FIELD=${RADARR_VERSION=3.0.0.3381} GITHUB_REF=${GITHUB_REF}-${RADARR_BRANCH=new-lists-in-ui-rename} bash discord-action-notify.sh
