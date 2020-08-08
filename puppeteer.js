@@ -20,6 +20,6 @@ const puppeteer = require('puppeteer');
     console.log(e)
     process.exit(1)
   }
-  await page.screenshot({ path: "screenshot.png", fullPage: true });
+  await page.screenshot({ path: "/usr/src/app/screenshot.png", fullPage: true });
   await browser.close();
 })();
