@@ -28,13 +28,13 @@ The environment variables below are all optional, the values you see are the def
 
 ## Tags
 
-| Tag       | Description                                | Build Status                                                                                           | Last Updated                                                                                            |
-| ----------|--------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| latest    | The same as `stable`                       |                                                                                                        |                                                                                                         |
-| stable    | Stable version                             | ![build](https://github.com/hotio/docker-radarr/workflows/build/badge.svg?branch=stable&event=push)    | ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/hotio/docker-radarr/stable)    |
-| unstable  | Unstable version                           | ![build](https://github.com/hotio/docker-radarr/workflows/build/badge.svg?branch=unstable&event=push)  | ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/hotio/docker-radarr/unstable)  |
-| aphrodite | Unstable version, V3, runs on Ubuntu 20.04 | ![build](https://github.com/hotio/docker-radarr/workflows/build/badge.svg?branch=aphrodite&event=push) | ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/hotio/docker-radarr/aphrodite) |
-| musl      | Unstable version, V3, runs on Alpine       | ![build](https://github.com/hotio/docker-radarr/workflows/build/badge.svg?branch=musl&event=push)      | ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/hotio/docker-radarr/musl)      |
+| Tag       | Description                                |
+| ----------|--------------------------------------------|
+| latest    | The same as `stable`                       |
+| stable    | Stable version                             |
+| unstable  | Unstable version                           |
+| aphrodite | Unstable version, V3, runs on Ubuntu 20.04 |
+| musl      | Unstable version, V3, runs on Alpine       |
 
 You can also find tags that reference a commit or version number.
 
