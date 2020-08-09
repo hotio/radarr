@@ -37,8 +37,8 @@ jobs:
         run: |
           ARCHITECTURE=${{ matrix.architecture }}
           docker buildx build \
-            --cache-from "${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-lists-in-ui-rename}-cache-${ARCHITECTURE}" \
-            --cache-to "${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-lists-in-ui-rename}-cache-${ARCHITECTURE}" \
+            --cache-from "${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-trakt-connection}-cache-${ARCHITECTURE}" \
+            --cache-to "${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-trakt-connection}-cache-${ARCHITECTURE}" \
             --platform ${ARCHITECTURE//-/\/} \
             --output "type=image,push=true" \
             --tag ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}-${ARCHITECTURE} \
@@ -48,9 +48,9 @@ jobs:
             --build-arg LABEL_SOURCE="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/tree/${GITHUB_REF//refs\/heads\//}" \
             --build-arg LABEL_VENDOR="${GITHUB_REPOSITORY%/*}" \
             --build-arg LABEL_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/blob/master/README.md" \
-            --build-arg LABEL_VERSION="${RADARR_VERSION=3.0.0.3381}" \
-            --build-arg RADARR_VERSION="${RADARR_VERSION=3.0.0.3381}" \
-            --build-arg RADARR_BRANCH="${RADARR_BRANCH=new-lists-in-ui-rename}" \
+            --build-arg LABEL_VERSION="${RADARR_VERSION=3.0.0.3389}" \
+            --build-arg RADARR_VERSION="${RADARR_VERSION=3.0.0.3389}" \
+            --build-arg RADARR_BRANCH="${RADARR_BRANCH=new-trakt-connection}" \
             --build-arg PACKAGE_VERSION="${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}" \
             --file ./${ARCHITECTURE}.Dockerfile ./
 
@@ -94,16 +94,16 @@ jobs:
 
       - name: Create docker manifest
         run: |
-          docker manifest create ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-lists-in-ui-rename} \
+          docker manifest create ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-trakt-connection} \
             --amend ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}-linux-amd64 \
             --amend ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}-linux-arm-v7 \
             --amend ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}-linux-arm64
-          docker manifest push ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-lists-in-ui-rename}
-          docker manifest create ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-lists-in-ui-rename}-${RADARR_VERSION=3.0.0.3381} \
+          docker manifest push ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-trakt-connection}
+          docker manifest create ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-trakt-connection}-${RADARR_VERSION=3.0.0.3389} \
             --amend ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}-linux-amd64 \
             --amend ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}-linux-arm-v7 \
             --amend ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}-linux-arm64
-          docker manifest push ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-lists-in-ui-rename}-${RADARR_VERSION=3.0.0.3381}
+          docker manifest push ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-trakt-connection}-${RADARR_VERSION=3.0.0.3389}
           docker manifest create ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7} \
             --amend ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}-linux-amd64 \
             --amend ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}-linux-arm-v7 \
@@ -119,8 +119,8 @@ jobs:
 
       - name: Check docker manifest
         run: |
-          docker manifest inspect ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-lists-in-ui-rename}
-          docker manifest inspect ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-lists-in-ui-rename}-${RADARR_VERSION=3.0.0.3381}
+          docker manifest inspect ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-trakt-connection}
+          docker manifest inspect ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-trakt-connection}-${RADARR_VERSION=3.0.0.3389}
           docker manifest inspect ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}
           if [[ ${GITHUB_REF//refs\/heads\//} == stable ]]; then
             docker manifest inspect ${GITHUB_REPOSITORY//docker-/}:latest
@@ -139,4 +139,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           curl -u "${GITHUB_REPOSITORY%/*}:${GITHUB_TOKEN}" -fsSL https://gist.githubusercontent.com/${GITHUB_REPOSITORY%/*}/3d98159d47e0bf5eccbff221f1288472/raw/discord-action-notify.sh > discord-action-notify.sh
-          VERSION_FIELD=${RADARR_VERSION=3.0.0.3381} GITHUB_REF=${GITHUB_REF}-${RADARR_BRANCH=new-lists-in-ui-rename} bash discord-action-notify.sh
+          VERSION_FIELD=${RADARR_VERSION=3.0.0.3389} GITHUB_REF=${GITHUB_REF}-${RADARR_BRANCH=new-trakt-connection} bash discord-action-notify.sh
