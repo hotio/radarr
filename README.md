@@ -2,6 +2,8 @@
 
 <img src="https://raw.githubusercontent.com/hotio/docker-radarr/master/img/radarr.png" alt="Logo" height="130" width="130">
 
+![Base](https://img.shields.io/badge/base-ubuntu-orange)
+![Base](https://img.shields.io/badge/base-alpine-blue)
 [![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-radarr)
 [![Docker Pulls](https://img.shields.io/docker/pulls/hotio/radarr)](https://hub.docker.com/r/hotio/radarr)
 [![Discord](https://img.shields.io/discord/610068305893523457?color=738ad6&label=discord&logo=discord&logoColor=white)](https://discord.gg/3SnkuKp)
