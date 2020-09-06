@@ -37,8 +37,8 @@ jobs:
         run: |
           ARCHITECTURE=${{ matrix.architecture }}
           docker buildx build \
-            --cache-from "${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-prefer-propers}-cache-${ARCHITECTURE}" \
-            --cache-to "${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=new-prefer-propers}-cache-${ARCHITECTURE}" \
+            --cache-from "${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=fix-filter-paths-manual}-cache-${ARCHITECTURE}" \
+            --cache-to "${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${RADARR_BRANCH=fix-filter-paths-manual}-cache-${ARCHITECTURE}" \
             --platform ${ARCHITECTURE//-/\/} \
             --output "type=image,push=true" \
             --tag ${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}-${ARCHITECTURE} \
@@ -48,9 +48,9 @@ jobs:
             --build-arg LABEL_SOURCE="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/tree/${GITHUB_REF//refs\/heads\//}" \
             --build-arg LABEL_VENDOR="${GITHUB_REPOSITORY%/*}" \
             --build-arg LABEL_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/blob/master/README.md" \
-            --build-arg LABEL_VERSION="${RADARR_VERSION=3.0.0.3613}" \
-            --build-arg RADARR_VERSION="${RADARR_VERSION=3.0.0.3613}" \
-            --build-arg RADARR_BRANCH="${RADARR_BRANCH=new-prefer-propers}" \
+            --build-arg LABEL_VERSION="${RADARR_VERSION=3.0.0.3602}" \
+            --build-arg RADARR_VERSION="${RADARR_VERSION=3.0.0.3602}" \
+            --build-arg RADARR_BRANCH="${RADARR_BRANCH=fix-filter-paths-manual}" \
             --build-arg PACKAGE_VERSION="${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}" \
             --file ./${ARCHITECTURE}.Dockerfile ./
 
@@ -111,10 +111,10 @@ jobs:
           for registry in ${registries[*]}; do
             TAG_BASE="${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}"
             TAG="${TAG_BASE}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}"
-            docker manifest create ${registry}/${TAG_BASE}-${RADARR_BRANCH=new-prefer-propers} --amend ${registry}/${TAG}-linux-amd64 --amend ${registry}/${TAG}-linux-arm-v7 --amend ${registry}/${TAG}-linux-arm64
-            docker manifest push   ${registry}/${TAG_BASE}-${RADARR_BRANCH=new-prefer-propers}
-            docker manifest create ${registry}/${TAG_BASE}-${RADARR_BRANCH=new-prefer-propers}-${RADARR_VERSION=3.0.0.3613} --amend ${registry}/${TAG}-linux-amd64 --amend ${registry}/${TAG}-linux-arm-v7 --amend ${registry}/${TAG}-linux-arm64
-            docker manifest push   ${registry}/${TAG_BASE}-${RADARR_BRANCH=new-prefer-propers}-${RADARR_VERSION=3.0.0.3613}
+            docker manifest create ${registry}/${TAG_BASE}-${RADARR_BRANCH=fix-filter-paths-manual} --amend ${registry}/${TAG}-linux-amd64 --amend ${registry}/${TAG}-linux-arm-v7 --amend ${registry}/${TAG}-linux-arm64
+            docker manifest push   ${registry}/${TAG_BASE}-${RADARR_BRANCH=fix-filter-paths-manual}
+            docker manifest create ${registry}/${TAG_BASE}-${RADARR_BRANCH=fix-filter-paths-manual}-${RADARR_VERSION=3.0.0.3602} --amend ${registry}/${TAG}-linux-amd64 --amend ${registry}/${TAG}-linux-arm-v7 --amend ${registry}/${TAG}-linux-arm64
+            docker manifest push   ${registry}/${TAG_BASE}-${RADARR_BRANCH=fix-filter-paths-manual}-${RADARR_VERSION=3.0.0.3602}
             docker manifest create ${registry}/${TAG_BASE}-${GITHUB_SHA:0:7} --amend ${registry}/${TAG}-linux-amd64 --amend ${registry}/${TAG}-linux-arm-v7 --amend ${registry}/${TAG}-linux-arm64
             docker manifest push   ${registry}/${TAG_BASE}-${GITHUB_SHA:0:7}
           done
@@ -132,4 +132,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           curl -u "${GITHUB_REPOSITORY%/*}:${GITHUB_TOKEN}" -fsSL https://gist.githubusercontent.com/${GITHUB_REPOSITORY%/*}/3d98159d47e0bf5eccbff221f1288472/raw/discord-action-notify.sh > discord-action-notify.sh
-          VERSION_FIELD=${RADARR_VERSION=3.0.0.3613} GITHUB_REF=${GITHUB_REF}-${RADARR_BRANCH=new-prefer-propers} bash discord-action-notify.sh
+          VERSION_FIELD=${RADARR_VERSION=3.0.0.3602} GITHUB_REF=${GITHUB_REF}-${RADARR_BRANCH=fix-filter-paths-manual} bash discord-action-notify.sh
