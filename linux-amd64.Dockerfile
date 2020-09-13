@@ -13,30 +13,15 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG RADARR_VERSION
-ARG RADARR_BRANCH
-ARG PACKAGE_VERSION={RADARR_VERSION}
+ARG VERSION
+ARG BRANCH
+ARG PACKAGE_VERSION={VERSION}
 
 # install app
 RUN mkdir "${APP_DIR}/bin" && \
-    curl -fsSL "https://radarr.servarr.com/v1/update/${RADARR_BRANCH}/updatefile?version=${RADARR_VERSION}&os=linux&runtime=netcore&arch=x64" | tar xzf - -C "${APP_DIR}/bin" --strip-components=1 && \
+    curl -fsSL "https://radarr.servarr.com/v1/update/${BRANCH}/updatefile?version=${VERSION}&os=linux&runtime=netcore&arch=x64" | tar xzf - -C "${APP_DIR}/bin" --strip-components=1 && \
     rm -rf "${APP_DIR}/bin/Radarr.Update" && \
-    echo "PackageVersion=${PACKAGE_VERSION}\nPackageAuthor=[hotio](https://github.com/hotio)\nUpdateMethod=Docker\nBranch=${RADARR_BRANCH}" > "${APP_DIR}/package_info" && \
+    echo "PackageVersion=${PACKAGE_VERSION}\nPackageAuthor=[hotio](https://github.com/hotio)\nUpdateMethod=Docker\nBranch=${BRANCH}" > "${APP_DIR}/package_info" && \
     chmod -R u=rwX,go=rX "${APP_DIR}"
 
 COPY root/ /
-
-ARG LABEL_CREATED
-LABEL org.opencontainers.image.created=$LABEL_CREATED
-ARG LABEL_TITLE
-LABEL org.opencontainers.image.title=$LABEL_TITLE
-ARG LABEL_REVISION
-LABEL org.opencontainers.image.revision=$LABEL_REVISION
-ARG LABEL_SOURCE
-LABEL org.opencontainers.image.source=$LABEL_SOURCE
-ARG LABEL_VENDOR
-LABEL org.opencontainers.image.vendor=$LABEL_VENDOR
-ARG LABEL_URL
-LABEL org.opencontainers.image.url=$LABEL_URL
-ARG LABEL_VERSION
-LABEL org.opencontainers.image.version=$LABEL_VERSION
