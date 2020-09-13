@@ -14,7 +14,7 @@ elif [[ ${1} == "tests" ]]; then
     docker run --rm --entrypoint="" "${2}" apk -vv info | sort
     echo "Check if app works..."
     app_url="http://localhost:7878/system/status"
-    docker run --priviliged --rm --network host -d --name service -e DEBUG="yes" "${2}"
+    docker run --privileged --rm --network host -d --name service -e DEBUG="yes" "${2}"
     currenttime=$(date +%s); maxtime=$((currenttime+60)); while (! curl -fsSL "${app_url}" > /dev/null) && [[ "$currenttime" -lt "$maxtime" ]]; do sleep 1; currenttime=$(date +%s); done
     curl -fsSL "${app_url}" > /dev/null
     status=$?
