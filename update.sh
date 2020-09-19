@@ -32,6 +32,9 @@ else
     version=$(curl -fsSL "https://radarr.servarr.com/v1/update/aphrodite/changes?os=linux" | jq -r .[0].version)
     [[ -z ${version} ]] && exit 1
     [[ ${version} == "null" ]] && exit 0
+    version_arr_discord_notifier=$(curl -u "${GITHUB_ACTOR}:${GITHUB_TOKEN}" -fsSL "https://api.github.com/repos/hotio/arr-discord-notifier/tags" | jq -r .[].name)
+    [[ -z ${version_arr_discord_notifier} ]] && exit 1
     echo "VERSION=${version}" > VERSION
-    echo "##[set-output name=version;]${version}"
+    echo "ARR_DISCORD_NOTIFIER_VERSION=${version_arr_discord_notifier}" >> VERSION
+    echo "##[set-output name=version;]${version}/${version_arr_discord_notifier}"
 fi
