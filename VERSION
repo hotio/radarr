@@ -1,5 +1,5 @@
-VERSION=3.0.0.3730
-BRANCH=fix-calendar-agenda-dates
+VERSION=3.0.0.3742
+BRANCH=fix-diskspace-labels-smallscreen
 ARR_DISCORD_NOTIFIER_VERSION=0.0.3
 0.0.2
 0.0.1
