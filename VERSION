@@ -1,5 +1,5 @@
-VERSION=3.0.0.3747
-BRANCH=new-pretty-discord
+VERSION=3.0.0.3749
+BRANCH=imagesharp-stable
 ARR_DISCORD_NOTIFIER_VERSION=0.0.16
 0.0.15
 0.0.14
