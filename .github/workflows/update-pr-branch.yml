@@ -1,4 +1,4 @@
-name: Version check
+name: Version check (PR)
 on:
   schedule:
     - cron:  '*/5 * * * *'
