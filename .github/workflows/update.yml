@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        branch: [stable, unstable, aphrodite, musl]
+        branch: [stable, aphrodite, musl]
     steps:
     - uses: actions/checkout@v2
       with:
