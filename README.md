@@ -35,9 +35,8 @@ The environment variables below are all optional, the values you see are the def
 | ----------|--------------------------------------------|
 | latest    | The same as `stable`                       |
 | stable    | Stable version                             |
-| unstable  | Unstable version                           |
-| aphrodite | Unstable version, V3, runs on Ubuntu 20.04 |
-| musl      | Unstable version, V3, runs on Alpine       |
+| unstable  | v3, nightly branch                         |
+| musl      | v3, nightly branch, runs on Alpine         |
 
 You can also find tags that reference a commit or version number.
 
