@@ -34,7 +34,7 @@ The environment variables below are all optional, the values you see are the def
 | Tag       | Description                                |
 | ----------|--------------------------------------------|
 | latest    | The same as `stable`                       |
-| stable    | Stable version                             |
+| stable    | v0.2, the old one                          |
 | unstable  | v3, nightly branch                         |
 | musl      | v3, nightly branch, runs on Alpine         |
 
