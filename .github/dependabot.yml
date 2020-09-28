@@ -22,7 +22,7 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    target-branch: "aphrodite"
+    target-branch: "pr"
 
   - package-ecosystem: "github-actions"
     directory: "/"
