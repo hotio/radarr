@@ -31,12 +31,12 @@ The environment variables below are all optional, the values you see are the def
 
 ## Tags
 
-| Tag              | Upstream                |
-| -----------------|-------------------------|
-| release (latest) | develop, becomes master |
-| testing          | develop                 |
-| nightly          | nightly                 |
-| musl             | nightly, runs on Alpine |
+| Tag                | Upstream                |
+| -------------------|-------------------------|
+| `release` (latest) | develop, becomes master |
+| `testing`          | develop                 |
+| `nightly`          | nightly                 |
+| `musl`             | nightly, runs on Alpine |
 
 You can also find tags that reference a commit or version number.
 
