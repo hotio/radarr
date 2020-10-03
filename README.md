@@ -1,5 +1,3 @@
-# radarr
-
 [<img src="https://hotio.dev/img/radarr.png" alt="logo" height="130" width="130">](https://github.com/Radarr/Radarr)
 
 ![Base](https://img.shields.io/badge/base-ubuntu-orange)
