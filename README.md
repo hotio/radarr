@@ -29,12 +29,12 @@ The [highlighted](https://hotio.dev/containers/radarr) variables are all optiona
 
 ## Tags
 
-| Tag                | Upstream                |
-| -------------------|-------------------------|
-| `release` (latest) | develop, becomes master |
-| `testing`          | develop                 |
-| `nightly`          | nightly                 |
-| `musl`             | nightly, runs on Alpine |
+| Tag                | Upstream                | Version |
+| -------------------|-------------------------|---------|
+| `release` (latest) | develop, becomes master | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-radarr%2Frelease%2FVERSION.json) |
+| `testing`          | develop                 | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-radarr%2Ftesting%2FVERSION.json) |
+| `nightly`          | nightly                 | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-radarr%2Fnightly%2FVERSION.json) |
+| `musl`             | nightly, runs on Alpine | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-radarr%2Fmusl%2FVERSION.json) |
 
 You can also find tags that reference a commit or version number.
 
