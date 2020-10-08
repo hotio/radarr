@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0.3887",
-  "branch": "remove-mac-start-script",
+  "version": "3.0.0.3883",
+  "branch": "speed-up-load",
   "arr_discord_notifier_version": "0.0.24"
 }
