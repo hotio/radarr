@@ -56,9 +56,6 @@ jobs:
         id: prep
         run: |
           ARCHITECTURE=${{ matrix.architecture }}
-          VERSION=$(jq -r '.version' < VERSION.json)
-          BRANCH=$(jq -r '.branch' < VERSION.json)
-          BUILD_ARGS=$(jq -r 'to_entries[] | [(.key | ascii_upcase),.value] | join("=")' < VERSION.json | paste -sd,),PACKAGE_VERSION=${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}
           echo ::set-output name=created::$(date -u +'%Y-%m-%dT%H:%M:%SZ')
           echo ::set-output name=title::${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}
           echo ::set-output name=revision::${GITHUB_SHA}
@@ -68,9 +65,9 @@ jobs:
           echo ::set-output name=platform::${ARCHITECTURE//-/\/}
           echo ::set-output name=cache::${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-cache-${{ matrix.architecture }}
           echo ::set-output name=tag::${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}-${{ matrix.architecture }}
-          echo ::set-output name=version::${VERSION}
-          echo ::set-output name=branch::${BRANCH}
-          echo ::set-output name=build-args::${BUILD_ARGS}
+          echo ::set-output name=version::$(jq -r '.version' < VERSION.json)
+          echo ::set-output name=branch::$(jq -r '.branch' < VERSION.json)
+          echo ::set-output name=version_arr_discord_notifier::$(jq -r '.arr_discord_notifier_version' < VERSION.json)
 
       - name: Build and push
         uses: docker/build-push-action@v2
@@ -91,7 +88,11 @@ jobs:
             org.opencontainers.image.vendor=${{ steps.prep.outputs.vendor }}
             org.opencontainers.image.url=${{ steps.prep.outputs.url }}
             org.opencontainers.image.version=${{ steps.prep.outputs.version }}
-          build-args: ${{ steps.prep.outputs.build-args }}
+          build-args: |
+            VERSION=${{ steps.prep.outputs.version }}
+            BRANCH=${{ steps.prep.outputs.branch }}
+            ARR_DISCORD_NOTIFIER_VERSION=${{ steps.prep.outputs.version_arr_discord_notifier }}
+            PACKAGE_VERSION=${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}
 
       - name: Dive Analysis
         uses: yuichielectric/dive-action@0.0.4
