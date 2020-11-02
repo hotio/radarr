@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0.3971",
-  "branch": "library-nuke-patch",
+  "version": "3.0.0.3980",
+  "branch": "sonarr-pull-0b7aa19a",
   "arr_discord_notifier_version": "0.0.26"
 }
