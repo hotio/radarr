@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0.4045",
-  "branch": "qbit-fix",
+  "version": "3.0.0.4059",
+  "branch": "sonarr-pull-fe0d8bb7",
   "arr_discord_notifier_version": "0.0.26"
 }
