@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        architecture: [linux-amd64, linux-arm64]
+        architecture: [linux-amd64]
     outputs:
       version: ${{ steps.prep.outputs.version }}
     steps:
@@ -128,11 +128,11 @@ jobs:
           IMAGE=${GITHUB_REPOSITORY//docker-/}
           TAG=${GITHUB_REF//refs\/heads\//}
           SOURCE=${IMAGE}:${TAG}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}
-          docker manifest create ${IMAGE}:${TAG}                                    --amend ${SOURCE}-linux-amd64 --amend ${SOURCE}-linux-arm64 && docker manifest push ${IMAGE}:${TAG}
-          docker manifest create ${IMAGE}:${TAG}-${{ needs.build.outputs.version }} --amend ${SOURCE}-linux-amd64 --amend ${SOURCE}-linux-arm64 && docker manifest push ${IMAGE}:${TAG}-${{ needs.build.outputs.version }}
-          docker manifest create ${IMAGE}:${TAG}-${GITHUB_SHA:0:7}                  --amend ${SOURCE}-linux-amd64 --amend ${SOURCE}-linux-arm64 && docker manifest push ${IMAGE}:${TAG}-${GITHUB_SHA:0:7}
+          docker manifest create ${IMAGE}:${TAG}                                    --amend ${SOURCE}-linux-amd64 && docker manifest push ${IMAGE}:${TAG}
+          docker manifest create ${IMAGE}:${TAG}-${{ needs.build.outputs.version }} --amend ${SOURCE}-linux-amd64 && docker manifest push ${IMAGE}:${TAG}-${{ needs.build.outputs.version }}
+          docker manifest create ${IMAGE}:${TAG}-${GITHUB_SHA:0:7}                  --amend ${SOURCE}-linux-amd64 && docker manifest push ${IMAGE}:${TAG}-${GITHUB_SHA:0:7}
           if [[ ${GITHUB_REF//refs\/heads\//} == stable ]]; then
-          docker manifest create ${IMAGE}:latest                                    --amend ${SOURCE}-linux-amd64 --amend ${SOURCE}-linux-arm64 && docker manifest push ${IMAGE}:latest
+          docker manifest create ${IMAGE}:latest                                    --amend ${SOURCE}-linux-amd64 && docker manifest push ${IMAGE}:latest
           fi
 
       - name: Create manifests for GitHub Container Registry
@@ -142,11 +142,11 @@ jobs:
           IMAGE=ghcr.io/${GITHUB_REPOSITORY//docker-/}
           TAG=${GITHUB_REF//refs\/heads\//}
           SOURCE=${IMAGE}:${TAG}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}
-          docker manifest create ${IMAGE}:${TAG}                                    --amend ${SOURCE}-linux-amd64 --amend ${SOURCE}-linux-arm64 && docker manifest push ${IMAGE}:${TAG}
-          docker manifest create ${IMAGE}:${TAG}-${{ needs.build.outputs.version }} --amend ${SOURCE}-linux-amd64 --amend ${SOURCE}-linux-arm64 && docker manifest push ${IMAGE}:${TAG}-${{ needs.build.outputs.version }}
-          docker manifest create ${IMAGE}:${TAG}-${GITHUB_SHA:0:7}                  --amend ${SOURCE}-linux-amd64 --amend ${SOURCE}-linux-arm64 && docker manifest push ${IMAGE}:${TAG}-${GITHUB_SHA:0:7}
+          docker manifest create ${IMAGE}:${TAG}                                    --amend ${SOURCE}-linux-amd64 && docker manifest push ${IMAGE}:${TAG}
+          docker manifest create ${IMAGE}:${TAG}-${{ needs.build.outputs.version }} --amend ${SOURCE}-linux-amd64 && docker manifest push ${IMAGE}:${TAG}-${{ needs.build.outputs.version }}
+          docker manifest create ${IMAGE}:${TAG}-${GITHUB_SHA:0:7}                  --amend ${SOURCE}-linux-amd64 && docker manifest push ${IMAGE}:${TAG}-${GITHUB_SHA:0:7}
           if [[ ${GITHUB_REF//refs\/heads\//} == stable ]]; then
-          docker manifest create ${IMAGE}:latest                                    --amend ${SOURCE}-linux-amd64 --amend ${SOURCE}-linux-arm64 && docker manifest push ${IMAGE}:latest
+          docker manifest create ${IMAGE}:latest                                    --amend ${SOURCE}-linux-amd64 && docker manifest push ${IMAGE}:latest
           fi
 
   notify:
