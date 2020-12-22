@@ -76,14 +76,15 @@ jobs:
           echo ::set-output name=cache::${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-cache-${{ matrix.architecture }}
           echo ::set-output name=tag::${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}-${{ matrix.architecture }}
           VERSION=$(jq -r '.version' < VERSION.json)
-          if [[ -z ${VERSION} ]]; then
+          if [[ ${VERSION} == null ]] || [[ -z ${VERSION} ]]; then
             VERSION=$(date +"%Y%m%d%H%M%S")
           fi
           BRANCH=$(jq -r '.branch' < VERSION.json)
-          if [[ -n ${BRANCH} ]]; then
+          if [[ ${BRANCH} != null ]] && [[ -n ${BRANCH} ]]; then
             echo ::set-output name=branch::${BRANCH}
             echo ::set-output name=version::${BRANCH}-${VERSION}
           else
+            echo ::set-output name=branch::null
             echo ::set-output name=version::${VERSION}
           fi
           ARGS="$(jq -r 'to_entries[] | [(.key | ascii_upcase),.value] | join("=")' < VERSION.json)"
