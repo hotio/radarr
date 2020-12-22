@@ -80,12 +80,12 @@ jobs:
             VERSION=$(date +"%Y%m%d%H%M%S")
           fi
           BRANCH=$(jq -r '.branch' < VERSION.json)
-          if [[ ${BRANCH} != null ]] && [[ -n ${BRANCH} ]]; then
-            echo ::set-output name=branch::${BRANCH}
-            echo ::set-output name=version::${BRANCH}-${VERSION}
-          else
+          if [[ ${BRANCH} == null ]] || [[ -z ${BRANCH} ]]; then
             echo ::set-output name=branch::null
             echo ::set-output name=version::${VERSION}
+          else
+            echo ::set-output name=branch::${BRANCH}
+            echo ::set-output name=version::${BRANCH}-${VERSION}
           fi
           ARGS="$(jq -r 'to_entries[] | [(.key | ascii_upcase),.value] | join("=")' < VERSION.json)"
           ARGS="${ARGS//'%'/'%25'}"
@@ -174,7 +174,7 @@ jobs:
           docker manifest push ${IMAGE}:${TAG}-${GITHUB_SHA:0:7}
           docker manifest create ${IMAGE}:${TAG}-${VERSION} ${AMD64} ${ARM64} ${ARMV7}
           docker manifest push ${IMAGE}:${TAG}-${VERSION}
-          if [[ ${BRANCH} != null ]]; then
+          if [[ ! ${BRANCH} == null ]]; then
             docker manifest create ${IMAGE}:${TAG}-${BRANCH} ${AMD64} ${ARM64} ${ARMV7}
             docker manifest push ${IMAGE}:${TAG}-${BRANCH}
           fi
