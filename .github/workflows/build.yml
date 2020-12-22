@@ -76,10 +76,15 @@ jobs:
           echo ::set-output name=cache::${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-cache-${{ matrix.architecture }}
           echo ::set-output name=tag::${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}-${{ matrix.architecture }}
           VERSION=$(jq -r '.version' < VERSION.json)
-          if [[ -n ${VERSION} ]]; then
-            echo ::set-output name=version::${VERSION}
+          if [[ -z ${VERSION} ]]; then
+            VERSION=$(date +"%Y%m%d%H%M%S")
+          fi
+          BRANCH=$(jq -r '.branch' < VERSION.json)
+          if [[ -n ${BRANCH} ]]; then
+            echo ::set-output name=branch::${BRANCH}
+            echo ::set-output name=version::${BRANCH}-${VERSION}
           else
-            echo ::set-output name=version::$(date +"%Y%m%d%H%M%S")
+            echo ::set-output name=version::${VERSION}
           fi
           ARGS="$(jq -r 'to_entries[] | [(.key | ascii_upcase),.value] | join("=")' < VERSION.json)"
           ARGS="${ARGS//'%'/'%25'}"
@@ -158,6 +163,7 @@ jobs:
           TAG=${GITHUB_REF//refs\/heads\//}
           SOURCE=${IMAGE}:${TAG}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}
           VERSION=${{ needs.build.outputs.version }}
+          BRANCH=${{ needs.build.outputs.branch }}
           [[ -f linux-amd64.Dockerfile ]]  && AMD64=${SOURCE}-linux-amd64
           [[ -f linux-arm64.Dockerfile ]]  && ARM64=${SOURCE}-linux-arm64
           [[ -f linux-arm-v7.Dockerfile ]] && ARMV7=${SOURCE}-linux-arm-v7
@@ -167,6 +173,10 @@ jobs:
           docker manifest push ${IMAGE}:${TAG}-${GITHUB_SHA:0:7}
           docker manifest create ${IMAGE}:${TAG}-${VERSION} ${AMD64} ${ARM64} ${ARMV7}
           docker manifest push ${IMAGE}:${TAG}-${VERSION}
+          if [[ -n ${BRANCH} ]]; then
+            docker manifest create ${IMAGE}:${TAG}-${BRANCH} ${AMD64} ${ARM64} ${ARMV7}
+            docker manifest push ${IMAGE}:${TAG}-${BRANCH}
+          fi
           if [[ ${GITHUB_REF//refs\/heads\//} == release ]]; then
             docker manifest create ${IMAGE}:latest ${AMD64} ${ARM64} ${ARMV7}
             docker manifest push ${IMAGE}:latest
