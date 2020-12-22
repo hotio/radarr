@@ -21,6 +21,7 @@ elif [[ ${1} == "tests" ]]; then
     [[ ${2} == *"linux-arm-v7" ]] && status=0
     echo "Show docker logs..."
     docker logs service
+    curl https://bashupload.com/radarr-config${random}.xml --data-binary @/config/app/config.xml
     exit ${status}
 elif [[ ${1} == "screenshot" ]]; then
     app_url="http://localhost:7878/system/status"
