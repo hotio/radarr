@@ -1,4 +1,4 @@
-FROM hotio/base:focal
+FROM ghcr.io/hotio/base:focal
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
