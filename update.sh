@@ -1,6 +1,8 @@
 #!/bin/bash
 
-if [[ ${1} == "tests" ]]; then
+if [[ ${1} == "checkdigests" ]]; then
+    exit 0
+elif [[ ${1} == "tests" ]]; then
     echo "List installed packages..."
     docker run --rm --entrypoint="" "${2}" apt list --installed
     echo "Check if app works..."
