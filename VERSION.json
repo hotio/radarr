@@ -1,5 +1,5 @@
 {
-  "version": "3.0.1.4304",
-  "branch": "fix-cifs",
+  "version": "3.0.0.4196",
+  "branch": "windows-restart",
   "arr_discord_notifier_version": "0.0.26"
 }
