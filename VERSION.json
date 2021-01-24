@@ -1,5 +1,5 @@
 {
-  "version": "3.0.2.4456",
+  "version": "3.0.2.4463",
   "branch": "fix-musl-detection",
   "arr_discord_notifier_version": "0.0.26"
 }
