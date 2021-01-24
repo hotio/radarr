@@ -1,5 +1,5 @@
 {
-  "version": "3.0.2.4462",
-  "branch": "sonarr-pull-f5d690aa",
+  "version": "3.0.2.4456",
+  "branch": "fix-musl-detection",
   "arr_discord_notifier_version": "0.0.26"
 }
