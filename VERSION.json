@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0.4530",
-  "branch": "fix-renaming-culture-issue",
+  "version": "3.1.0.4538",
+  "branch": "bsd-net-core",
   "arr_discord_notifier_version": "0.0.26"
 }
