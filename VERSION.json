@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0.4514",
-  "branch": "misc-cf-fixes",
+  "version": "3.1.0.4603",
+  "branch": "sonarr-pull-29bc660c",
   "arr_discord_notifier_version": "0.0.26"
 }
