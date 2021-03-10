@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0.4723",
-  "branch": "sonarr-pull-a848e575",
+  "version": "3.1.0.4643",
+  "branch": "add-sonarrdonate-moreinfo",
   "arr_discord_notifier_version": "0.0.27"
 }
