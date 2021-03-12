@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0.4737",
-  "branch": "add-sonarrdonate-moreinfo",
+  "version": "3.1.0.4617",
+  "branch": "split-warning-labels",
   "arr_discord_notifier_version": "0.0.27"
 }
