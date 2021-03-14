@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0.4617",
-  "branch": "split-warning-labels",
+  "version": "3.1.0.4743",
+  "branch": "sonarr-pull-eea6be45",
   "arr_discord_notifier_version": "0.0.27"
 }
