@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0.4831",
-  "branch": "disk-size-ondelete",
-  "arr_discord_notifier_version": "0.0.27"
+  "version": "3.1.0.4843",
+  "branch": "sonarr-pull-24ca473",
+  "arr_discord_notifier_version": "0.0.29"
 }
