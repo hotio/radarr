@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0.4869",
-  "branch": "fix-group-parser",
+  "version": "3.1.0.4870",
+  "branch": "sonarr-email-pulls",
   "arr_discord_notifier_version": "0.0.29"
 }
