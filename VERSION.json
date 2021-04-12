@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0.4870",
-  "branch": "sonarr-email-pulls",
+  "version": "3.1.0.4865",
+  "branch": "ical_digital_releases",
   "arr_discord_notifier_version": "0.0.29"
 }
