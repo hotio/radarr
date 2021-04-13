@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0.4865",
-  "branch": "ical_digital_releases",
+  "version": "3.1.0.4877",
+  "branch": "sonarr-pull-a47cb239",
   "arr_discord_notifier_version": "0.0.29"
 }
