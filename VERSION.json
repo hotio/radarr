@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0.4883",
-  "branch": "sonarr-email-pulls",
+  "version": "3.1.0.4884",
+  "branch": "sonarr-pull-ac8283d7",
   "arr_discord_notifier_version": "0.0.29"
 }
