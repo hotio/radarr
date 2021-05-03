@@ -1,5 +1,5 @@
 {
-  "version": "3.1.1.4953",
-  "branch": "notifiarr-updates",
+  "version": "3.1.1.4956",
+  "branch": "sonarr-pull-d668e92",
   "arr_discord_notifier_version": "0.0.29"
 }
