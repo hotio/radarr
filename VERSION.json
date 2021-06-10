@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0.5086",
-  "branch": "translatekeyfixes",
+  "version": "4.0.0.5087",
+  "branch": "fix-embedded-date-converter",
   "arr_discord_notifier_version": "0.0.29"
 }
