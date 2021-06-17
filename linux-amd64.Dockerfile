@@ -1,4 +1,4 @@
-FROM ghcr.io/hotio/base@sha256:e4b68d01d4bd68602b1a4c40684a60133628145bf68d6ab08c9e3681c88ca9ac
+FROM ghcr.io/hotio/base@sha256:cebb8cd25b2e363f9d63f062833af6b8fc475b6c3ce9f898f1a681930cfd3fc1
 
 EXPOSE 7878
 
