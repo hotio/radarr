@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0.5207",
-  "branch": "cats-help-fix",
+  "version": "4.0.0.5211",
+  "branch": "sonarr-pull-6596d0b",
   "arr_discord_notifier_version": "0.0.29"
 }
