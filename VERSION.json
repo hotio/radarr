@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0.5229",
-  "branch": "sonarr-pull-ead1371",
+  "version": "4.0.0.5228",
+  "branch": "bug-tmp",
   "arr_discord_notifier_version": "0.0.30"
 }
