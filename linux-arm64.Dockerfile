@@ -4,7 +4,7 @@ EXPOSE 7878
 
 RUN apk add --no-cache libintl sqlite-libs icu-libs && \
     apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/main tinyxml2 && \
-    apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community libmediainfo=21.09-r0
+    apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community libmediainfo
 
 ARG VERSION
 ARG PACKAGE_VERSION=${VERSION}
