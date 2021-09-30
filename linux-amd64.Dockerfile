@@ -2,7 +2,7 @@ FROM ghcr.io/hotio/base@sha256:1a0aa67c51aa3789f3453e7d0e000149ac67dc1f6bb9173d4
 
 EXPOSE 7878
 
-RUN apk add --no-cache libintl sqlite-libs icu-libs && \
+RUN apk add --no-cache libintl sqlite-libs icu-libs tinyxml2 && \
     apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community libmediainfo
 
 ARG VERSION
