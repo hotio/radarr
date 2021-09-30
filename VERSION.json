@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0.5290",
-  "branch": "ffmpeg",
+  "version": "4.0.0.5310",
+  "branch": "sonarr-pull-d9e9b72a",
   "arr_discord_notifier_version": "0.0.30"
 }
