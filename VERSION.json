@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0.5319",
-  "branch": "aspnetcore",
+  "version": "4.0.0.5320",
+  "branch": "sonarr-pull-7e175bf9",
   "arr_discord_notifier_version": "0.0.33"
 }
