@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0.5502",
-  "branch": "net6",
+  "version": "4.0.0.5506",
+  "branch": "sonarr-pull-747a416",
   "arr_discord_notifier_version": "0.0.33"
 }
