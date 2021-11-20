@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0.5513",
-  "branch": "net6",
+  "version": "4.0.0.5516",
+  "branch": "slack-discord-migration",
   "arr_discord_notifier_version": "0.0.33"
 }
