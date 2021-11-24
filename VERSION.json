@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0.5530",
-  "branch": "osx-arm64",
+  "version": "4.0.0.5242",
+  "branch": "fix-log",
   "arr_discord_notifier_version": "0.0.33"
 }
