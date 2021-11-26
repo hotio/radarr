@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0.5530",
-  "branch": "osx-arm64",
+  "version": "4.0.0.5511",
+  "branch": "slack-discord-healthcheck",
   "arr_discord_notifier_version": "0.0.33"
 }
