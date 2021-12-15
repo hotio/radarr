@@ -1,4 +1,4 @@
-FROM ghcr.io/hotio/base:alpine
+FROM cr.hotio.dev/hotio/base:alpine
 
 EXPOSE 7878
 
