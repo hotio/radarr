@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0.5616",
-  "branch": "fix-french-german-titles",
+  "version": "4.0.0.5571",
+  "branch": "slack-discord-healthcheck",
   "arr_discord_notifier_version": "0.0.33"
 }
