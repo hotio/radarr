@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0.5647",
-  "branch": "jackett-all",
+  "version": "4.0.0.5656",
+  "branch": "indexer-client",
   "arr_discord_notifier_version": "0.0.33"
 }
