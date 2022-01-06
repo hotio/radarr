@@ -1,5 +1,5 @@
 {
-  "version": "4.0.1.5770",
-  "branch": "fix-broken-exclusion-header",
+  "version": "4.0.1.5773",
+  "branch": "fix-poster-ribbon-on-search",
   "arr_discord_notifier_version": "0.0.33"
 }
