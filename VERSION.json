@@ -1,5 +1,5 @@
 {
-  "version": "4.0.2.5828",
-  "branch": "httpstack-digestauth",
+  "version": "4.0.2.5823",
+  "branch": "postgresSupport",
   "arr_discord_notifier_version": "0.0.33"
 }
