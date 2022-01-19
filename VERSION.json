@@ -1,5 +1,5 @@
 {
-  "version": "4.0.1.5773",
-  "branch": "fix-poster-ribbon-on-search",
+  "version": "4.0.3.5852",
+  "branch": "postgresSupport",
   "arr_discord_notifier_version": "0.0.33"
 }
