@@ -1,5 +1,5 @@
 {
-  "version": "4.0.5.5933",
-  "branch": "fix-custom-filter-original-language",
+  "version": "4.0.5.5934",
+  "branch": "sonarr-pull-69ccb96a",
   "arr_discord_notifier_version": "0.0.33"
 }
