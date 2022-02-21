@@ -1,5 +1,5 @@
 {
-  "version": "4.0.5.5959",
-  "branch": "sonarr-pull-9e1b799f",
+  "version": "4.0.5.5958",
+  "branch": "postgresSupport",
   "arr_discord_notifier_version": "0.0.33"
 }
