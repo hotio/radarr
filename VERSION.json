@@ -1,5 +1,5 @@
 {
-  "version": "4.0.5.5980",
-  "branch": "fix-custom-filter-original-language",
+  "version": "4.0.5.5930",
+  "branch": "HDO-exception-group",
   "arr_discord_notifier_version": "0.0.33"
 }
