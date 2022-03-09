@@ -1,5 +1,5 @@
 {
-  "version": "4.1.0.6014",
-  "branch": "postgresSupport",
+  "version": "4.1.0.6017",
+  "branch": "notifiarr-connect-updates",
   "arr_discord_notifier_version": "0.0.33"
 }
