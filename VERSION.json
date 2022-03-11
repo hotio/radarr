@@ -1,5 +1,5 @@
 {
-  "version": "4.1.0.6019",
-  "branch": "notifiarr-connect-updates",
+  "version": "4.1.0.6020",
+  "branch": "add-deleted-status-movie-details",
   "arr_discord_notifier_version": "0.0.33"
 }
