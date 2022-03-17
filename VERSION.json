@@ -1,5 +1,5 @@
 {
-  "version": "4.1.0.6033",
-  "branch": "collections-view",
+  "version": "4.1.0.6032",
+  "branch": "postgresSupport",
   "arr_discord_notifier_version": "0.0.33"
 }
