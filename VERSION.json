@@ -1,5 +1,5 @@
 {
-  "version": "4.1.0.6067",
-  "branch": "postgresSupport",
+  "version": "4.0.5.5950",
+  "branch": "syslogSupport",
   "arr_discord_notifier_version": "0.0.33"
 }
