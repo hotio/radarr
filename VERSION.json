@@ -1,5 +1,5 @@
 {
-  "version": "4.1.0.6155",
-  "branch": "fix-postgres-tests",
+  "version": "4.1.0.6161",
+  "branch": "sonarr-pull-bba4a563",
   "arr_discord_notifier_version": "0.0.33"
 }
