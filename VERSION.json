@@ -1,5 +1,5 @@
 {
-  "version": "4.1.0.6170",
-  "branch": "sonarr-pull-5a08d5dc",
+  "version": "4.1.0.6169",
+  "branch": "movie-metadata",
   "arr_discord_notifier_version": "0.0.33"
 }
