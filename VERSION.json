@@ -1,5 +1,5 @@
 {
-  "version": "4.1.0.6190",
-  "branch": "postgres-timezone-fixup",
+  "version": "4.1.0.6201",
+  "branch": "linux-x86",
   "arr_discord_notifier_version": "0.0.33"
 }
