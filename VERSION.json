@@ -1,5 +1,5 @@
 {
-  "version": "4.2.0.6249",
-  "branch": "nyaa-rss-updates",
+  "version": "4.2.0.6250",
+  "branch": "sonarr-pull-9183c6b",
   "arr_discord_notifier_version": "0.0.34"
 }
