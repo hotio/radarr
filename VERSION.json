@@ -1,5 +1,5 @@
 {
-  "version": "4.2.0.6294",
-  "branch": "sonarr-0d739cd26d3b18d1456444e9ddf7e71d84e40253",
+  "version": "4.2.0.6297",
+  "branch": "pr-lsio-builds",
   "arr_discord_notifier_version": "0.0.34"
 }
