@@ -1,5 +1,5 @@
 {
-  "version": "4.2.0.6336",
-  "branch": "movie-added-notification",
+  "version": "4.2.0.6333",
+  "branch": "sonarr-protocol-rename",
   "arr_discord_notifier_version": "0.0.34"
 }
