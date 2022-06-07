@@ -1,5 +1,5 @@
 {
-  "version": "4.2.0.6333",
-  "branch": "sonarr-protocol-rename",
+  "version": "4.0.3.5886",
+  "branch": "sonarr-pull-9afcec8b",
   "arr_discord_notifier_version": "0.0.34"
 }
