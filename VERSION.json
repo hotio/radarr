@@ -1,5 +1,5 @@
 {
-  "version": "4.2.0.6376",
-  "branch": "notifiarr-to-api",
+  "version": "4.2.0.6375",
+  "branch": "update-configfileprovider",
   "arr_discord_notifier_version": "0.0.34"
 }
