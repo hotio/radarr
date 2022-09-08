@@ -1,5 +1,5 @@
 {
-  "version": "4.2.3.6568",
-  "branch": "db-issue-template-update",
+  "version": "4.2.2.6505",
+  "branch": "sonarr-pull-e1de523c",
   "arr_discord_notifier_version": "0.0.34"
 }
