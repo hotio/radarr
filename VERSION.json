@@ -1,6 +1,6 @@
 {
-  "version": "4.2.2.6505",
-  "branch": "sonarr-pull-e1de523c",
+  "version": "4.2.4.6594",
+  "branch": "list-folder-title",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
   "upstream_tag": "alpine",
