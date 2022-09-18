@@ -6,5 +6,5 @@
   "upstream_digest_amd64": "sha256:782cd49f84365ff7cc291acfb6d039b15403aefe39fc3c884f1ac6fe87514e5d",
   "upstream_digest_arm64": "sha256:fa5b5977bae89d31fb1ba0c11729bc39022294beaa431730b53783dd6e7634d8",
   "test_url": "http://localhost:7878/system/status",
-  "branch": "nightly"
+  "sbranch": "nightly"
 }
