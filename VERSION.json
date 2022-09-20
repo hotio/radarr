@@ -1,4 +1,5 @@
 {
+  "hide": true,
   "version": "4.2.4.6596",
   "branch": "sonarr-pull-b6417a6f",
   "arr_discord_notifier_version": "0.0.35",
