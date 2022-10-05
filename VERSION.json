@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "4.3.0.6642",
-  "branch": "notifiarr-errors",
+  "version": "4.3.0.6652",
+  "branch": "fr-template",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
   "upstream_tag": "alpine",
