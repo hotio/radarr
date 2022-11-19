@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "4.3.1.6716",
+  "version": "4.3.1.6752",
   "branch": "notifiarr-errors",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
