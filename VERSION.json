@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "4.3.2.6827",
-  "branch": "sonarr-pull-ee1ee8f2",
+  "version": "4.3.2.6830",
+  "branch": "winterqt-torrent-log",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
   "upstream_tag": "alpine",
