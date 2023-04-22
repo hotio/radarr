@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "4.5.0.7078",
-  "branch": "sonarr-pull-764c0849",
+  "version": "4.5.0.7082",
+  "branch": "sonarr-pull-bead5689",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
   "upstream_tag": "alpine",
