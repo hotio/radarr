@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "4.4.3.6992",
+  "version": "4.5.0.7091",
   "branch": "typescript-beginnings",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
