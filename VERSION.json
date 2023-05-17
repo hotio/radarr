@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "4.5.2.7305",
+  "version": "4.5.2.7306",
   "branch": "diskprovider-show-mountpoint-errors",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
