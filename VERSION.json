@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "4.6.0.7398",
+  "version": "4.6.0.7418",
   "branch": "import-list-interval",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
