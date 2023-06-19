@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "4.6.2.7466",
+  "version": "4.6.3.7506",
   "branch": "update-translations",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
