@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "4.6.3.7506",
-  "branch": "update-translations",
+  "version": "4.6.3.7513",
+  "branch": "roksbox-metadata",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
   "upstream_tag": "alpine",
