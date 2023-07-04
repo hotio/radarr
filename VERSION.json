@@ -1,7 +1,7 @@
 {
   "latest": true,
   "description": "master",
-  "version": "4.5.2.7388",
+  "version": "4.6.4.7568",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
   "upstream_tag": "alpine",
