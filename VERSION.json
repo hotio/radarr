@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "4.7.3.7713",
+  "version": "4.7.3.7717",
   "branch": "autotagging",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
