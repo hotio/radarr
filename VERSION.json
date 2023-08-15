@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "5.0.0.7819",
+  "version": "5.0.0.7824",
   "branch": "radarr-5",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
