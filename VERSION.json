@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "5.0.0.7837",
+  "version": "5.0.0.7864",
   "branch": "retry-automation-tests",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
