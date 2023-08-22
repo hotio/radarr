@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "5.0.0.7940",
+  "version": "5.0.0.7941",
   "branch": "override-release-grab-modal",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "cr.hotio.dev/hotio/base",
