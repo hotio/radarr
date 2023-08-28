@@ -5,6 +5,11 @@ branch=$(curl -u "${GITHUB_ACTOR}:${GITHUB_TOKEN}" -fsSL "https://api.github.com
 version=$(curl -fsSL "https://radarr.servarr.com/v1/update/${branch}/changes?os=linuxmusl&runtime=netcore&arch=x64" | jq -r .[0].version)
 [[ -z ${version} ]] && exit 0
 [[ ${version} == "null" ]] && exit 0
+if [[ ${branch} == $(jq -r '.branch' < VERSION.json) ]] && [[ ${version} == $(jq -r '.version' < VERSION.json) ]]; then
+    exit 0
+else
+    curl -fsSL "https://radarr.servarr.com/v1/update/${branch}/updatefile?version=${version}&os=linuxmusl&runtime=netcore&arch=x64" -o /dev/null || exit 0
+fi
 version_arr_discord_notifier=$(curl -u "${GITHUB_ACTOR}:${GITHUB_TOKEN}" -fsSL "https://api.github.com/repos/hotio/arr-discord-notifier/tags" | jq -r .[0].name)
 [[ -z ${version_arr_discord_notifier} ]] && exit 0
 version_json=$(cat ./VERSION.json)
