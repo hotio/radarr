@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "5.0.2.7995",
-  "branch": "media-cover-tweaks",
+  "version": "5.0.2.8000",
+  "branch": "indexer-flags-movie-imported",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
