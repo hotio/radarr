@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "5.0.2.8004",
+  "version": "5.0.2.8009",
   "branch": "media-cover-tweaks",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "ghcr.io/hotio/base",
