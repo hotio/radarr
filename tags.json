@@ -8,5 +8,15 @@
       "nightly-5.0.2.8014",
       "nightly-7bf2f17"
     ]
+  },
+  "pr": {
+    "description": "",
+    "last_updated": "2023-09-08T06:21:25.104Z",
+    "latest": false,
+    "tags": [
+      "pr-media-cover-tweaks",
+      "pr-media-cover-tweaks-5.0.2.8009",
+      "pr-media-cover-tweaks-455f522"
+    ]
   }
 }
