@@ -19,6 +19,16 @@
       "pr-media-cover-tweaks-455f522"
     ]
   },
+  "release": {
+    "description": "master",
+    "last_updated": "2023-09-08T06:21:31.859Z",
+    "latest": true,
+    "tags": [
+      "release",
+      "release-4.7.5.7809",
+      "release-43557ef"
+    ]
+  },
   "testing": {
     "description": "develop",
     "last_updated": "2023-09-08T06:21:29.342Z",
