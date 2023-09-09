@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "5.0.2.8030",
-  "branch": "rename-deprecated-indexer-flags",
+  "version": "5.0.2.8025",
+  "branch": "media-cover-tweaks",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
