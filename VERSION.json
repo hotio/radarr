@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "5.0.2.8063",
-  "branch": "bakertown",
+  "version": "5.0.2.8066",
+  "branch": "duplicate-notifications-failed-health-checks",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
