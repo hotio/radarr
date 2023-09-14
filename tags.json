@@ -28,15 +28,5 @@
       "testing-5.0.1.7993",
       "testing-0e3f460"
     ]
-  },
-  "zeus": {
-    "description": "zeus/v6",
-    "last_updated": "2023-09-12T06:19:39.939Z",
-    "latest": false,
-    "tags": [
-      "zeus",
-      "zeus-6.0.0.7976",
-      "zeus-3a91fcb"
-    ]
   }
 }
