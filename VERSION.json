@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "5.1.0.8136",
-  "branch": "movie-detail-rework",
+  "version": "5.1.0.8148",
+  "branch": "sonarr-pull-df2e8675",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
