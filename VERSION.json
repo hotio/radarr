@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "5.1.0.8161",
+  "version": "5.1.1.8176",
   "branch": "movie-detail-rework",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "ghcr.io/hotio/base",
