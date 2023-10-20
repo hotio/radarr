@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "5.1.1.8190",
+  "version": "5.1.1.8191",
   "branch": "sqlite-locks",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "ghcr.io/hotio/base",
