@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "5.1.1.8191",
-  "branch": "sqlite-locks",
+  "version": "5.1.1.8188",
+  "branch": "bakertown",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
