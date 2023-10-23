@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "5.1.2.8199",
+  "version": "5.1.2.8202",
   "branch": "sqlite-busy-timeout",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "ghcr.io/hotio/base",
