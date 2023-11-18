@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "5.2.1.8255",
-  "branch": "all-movies-translation-dict",
+  "version": "5.2.1.8269",
+  "branch": "backend-translations",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
