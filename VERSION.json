@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "5.2.0.8251",
+  "version": "5.2.1.8273",
   "branch": "ptp-collection-import",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "ghcr.io/hotio/base",
