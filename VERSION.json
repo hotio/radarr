@@ -1,6 +1,6 @@
 {
   "description": "nightly",
-  "version": "5.2.4.8306",
+  "version": "5.2.4.8307",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
