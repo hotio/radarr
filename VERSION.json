@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "5.2.4.8329",
-  "branch": "tmdb-lists-all-languages",
+  "version": "5.2.5.8337",
+  "branch": "trakt-hdr",
   "arr_discord_notifier_version": "0.0.35",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
