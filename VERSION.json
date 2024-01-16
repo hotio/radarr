@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "5.3.2.8450",
+  "version": "5.3.2.8466",
   "branch": "movie-stats",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
