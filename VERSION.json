@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "5.3.2.8486",
-  "branch": "ptp-collection-import",
+  "version": "5.3.2.8492",
+  "branch": "movie-files-date-added",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
   "upstream_digest_amd64": "sha256:6dc3330cd573de7344957f1ac51c9cda51dae86350a4d961f43024ce70ce6b47",
