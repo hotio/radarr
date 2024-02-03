@@ -1,6 +1,6 @@
 {
   "description": "nightly",
-  "version": "5.3.4.8561",
+  "version": "5.3.4.8562",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
   "upstream_digest_amd64": "sha256:ad0a206ece1aef4d51190433fee2e765a331fd9ce0460ccb0a20edba4c1efb22",
