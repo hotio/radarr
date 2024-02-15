@@ -2,13 +2,13 @@
   "nightly": {
     "description": "nightly",
     "hide": false,
-    "last_updated": "2024-02-15T08:11:52.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/7912735058",
+    "last_updated": "2024-02-15T08:53:05.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/7913192138",
     "latest": false,
     "tags": [
       "nightly",
       "nightly-5.3.6.8606",
-      "nightly-7e13370"
+      "nightly-6fd1556"
     ]
   },
   "pr-movie-files-sort": {
