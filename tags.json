@@ -14,13 +14,13 @@
   "pr-movie-files-sort": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-02-20T02:48:42.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/7967715658",
+    "last_updated": "2024-02-20T03:21:36.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/7967931467",
     "latest": false,
     "tags": [
       "pr-movie-files-sort",
       "pr-movie-files-sort-5.3.4.8542",
-      "pr-movie-files-sort-25da4a9"
+      "pr-movie-files-sort-bd6df17"
     ]
   },
   "release": {
