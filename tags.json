@@ -23,6 +23,18 @@
       "pr-movie-files-sort-5698356"
     ]
   },
+  "pr-sonarr-pull-c6071f6d": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-02-21T04:50:59.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/7984137387",
+    "latest": false,
+    "tags": [
+      "pr-sonarr-pull-c6071f6d",
+      "pr-sonarr-pull-c6071f6d-5.4.0.8621",
+      "pr-sonarr-pull-c6071f6d-5d3222d"
+    ]
+  },
   "release": {
     "description": "master",
     "hide": false,
