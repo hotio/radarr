@@ -1,5 +1,5 @@
 {
-  "branch": "movie-files-sort",
+  "branch": "sonarr-pull-c6071f6d",
   "hide": true,
   "test_amd64": true,
   "test_arm64": true,
@@ -8,5 +8,5 @@
   "upstream_digest_arm64": "sha256:ec61b1fd28d69c945e693c2f9f7f0af0f22b22fa12cb5fc22d807db852afff5d",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
-  "version": "5.3.4.8542"
+  "version": "5.4.0.8621"
 }
