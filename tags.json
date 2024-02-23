@@ -26,13 +26,13 @@
   "pr-sonarr-pull-c6071f6d": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-02-22T10:54:20.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8003177487",
+    "last_updated": "2024-02-23T06:37:18.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8015510854",
     "latest": false,
     "tags": [
       "pr-sonarr-pull-c6071f6d",
       "pr-sonarr-pull-c6071f6d-5.4.0.8626",
-      "pr-sonarr-pull-c6071f6d-4d218cb"
+      "pr-sonarr-pull-c6071f6d-fb078d3"
     ]
   },
   "release": {
