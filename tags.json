@@ -62,13 +62,13 @@
   "testing": {
     "description": "develop",
     "hide": false,
-    "last_updated": "2024-02-29T07:25:55.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8092330460",
+    "last_updated": "2024-02-29T10:49:46.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8094679099",
     "latest": false,
     "tags": [
       "testing",
       "testing-5.4.0.8636",
-      "testing-e220c61"
+      "testing-db90ed5"
     ]
   }
 }
