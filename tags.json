@@ -14,13 +14,13 @@
   "pr-alt-iso-code-mappings": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-02-28T11:37:24.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8079571625",
+    "last_updated": "2024-02-29T07:25:53.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8092329883",
     "latest": false,
     "tags": [
       "pr-alt-iso-code-mappings",
       "pr-alt-iso-code-mappings-5.4.0.8635",
-      "pr-alt-iso-code-mappings-1e1f912"
+      "pr-alt-iso-code-mappings-597f2a8"
     ]
   },
   "pr-movie-files-sort": {
