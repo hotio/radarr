@@ -62,13 +62,13 @@
   "testing": {
     "description": "develop",
     "hide": false,
-    "last_updated": "2024-03-03T10:24:51.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8129498485",
+    "last_updated": "2024-03-03T11:10:57.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8129692795",
     "latest": false,
     "tags": [
       "testing",
       "testing-5.4.1.8654",
-      "testing-38acb40"
+      "testing-fb8d232"
     ]
   }
 }
