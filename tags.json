@@ -47,6 +47,18 @@
       "pr-sonarr-pull-c6071f6d-426b421"
     ]
   },
+  "pr-sonarr-pulls-20240308": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-03-08T06:55:44.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8199832704",
+    "latest": false,
+    "tags": [
+      "pr-sonarr-pulls-20240308",
+      "pr-sonarr-pulls-20240308-5.4.2.8665",
+      "pr-sonarr-pulls-20240308-22ef039"
+    ]
+  },
   "release": {
     "description": "master",
     "hide": false,
