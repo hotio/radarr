@@ -23,6 +23,18 @@
       "pr-alt-iso-code-mappings-9fd3190"
     ]
   },
+  "pr-kodi-rt-criticrating": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-03-20T13:25:50.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8359670029",
+    "latest": false,
+    "tags": [
+      "pr-kodi-rt-criticrating",
+      "pr-kodi-rt-criticrating-5.4.4.8684",
+      "pr-kodi-rt-criticrating-0192b94"
+    ]
+  },
   "pr-movie-files-sort": {
     "description": "",
     "hide": true,
