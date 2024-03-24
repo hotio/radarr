@@ -26,13 +26,13 @@
   "pr-kodi-rt-criticrating": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-03-20T13:25:50.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8359670029",
+    "last_updated": "2024-03-24T07:53:09.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8407774388",
     "latest": false,
     "tags": [
       "pr-kodi-rt-criticrating",
       "pr-kodi-rt-criticrating-5.4.4.8684",
-      "pr-kodi-rt-criticrating-0192b94"
+      "pr-kodi-rt-criticrating-b9a7810"
     ]
   },
   "pr-movie-files-sort": {
