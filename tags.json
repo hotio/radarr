@@ -74,13 +74,13 @@
   "release": {
     "description": "master",
     "hide": false,
-    "last_updated": "2024-03-24T07:53:21.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8407774451",
+    "last_updated": "2024-04-13T05:48:45.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8671441464",
     "latest": true,
     "tags": [
       "release",
-      "release-5.3.6.8612",
-      "release-bd09aa0"
+      "release-5.4.6.8723",
+      "release-2684d15"
     ]
   },
   "testing": {
