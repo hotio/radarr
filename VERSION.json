@@ -1,5 +1,5 @@
 {
-  "branch": "kodi-rt-criticrating",
+  "branch": "sonarr-pull-d6278fce",
   "hide": true,
   "test_amd64": true,
   "test_arm64": true,
@@ -8,5 +8,5 @@
   "upstream_digest_arm64": "sha256:88dfa1278e8dc5229f719602c65d7a4d2f132d902662e587087a9bae9eeafaf1",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
-  "version": "5.4.4.8684"
+  "version": "5.5.0.8727"
 }
