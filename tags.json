@@ -23,6 +23,18 @@
       "pr-alt-iso-code-mappings-9fd3190"
     ]
   },
+  "pr-freebox-infohash": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-04-19T16:59:36.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8757011836",
+    "latest": false,
+    "tags": [
+      "pr-freebox-infohash",
+      "pr-freebox-infohash-5.5.0.8732",
+      "pr-freebox-infohash-6e5b04c"
+    ]
+  },
   "pr-kodi-rt-criticrating": {
     "description": "",
     "hide": true,
