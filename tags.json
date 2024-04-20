@@ -2,13 +2,13 @@
   "nightly": {
     "description": "nightly",
     "hide": false,
-    "last_updated": "2024-04-19T10:57:30.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8752433441",
+    "last_updated": "2024-04-20T07:21:20.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8763384463",
     "latest": false,
     "tags": [
       "nightly",
       "nightly-5.5.0.8729",
-      "nightly-54ae224"
+      "nightly-53f9b16"
     ]
   },
   "pr-alt-iso-code-mappings": {
