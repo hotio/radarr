@@ -1,5 +1,5 @@
 {
-  "branch": "freebox-infohash",
+  "branch": "equality-check",
   "hide": true,
   "test_amd64": true,
   "test_arm64": true,
@@ -8,5 +8,5 @@
   "upstream_digest_arm64": "sha256:3302f7edd498d8bd9172b844a8a6e1baeadd4abc32442a317337e52ccdd06403",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
-  "version": "5.5.0.8732"
+  "version": "5.5.0.8737"
 }
