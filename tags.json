@@ -26,13 +26,13 @@
   "pr-freebox-infohash": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-04-20T07:22:03.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8763384667",
+    "last_updated": "2024-04-20T10:38:09.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8764390431",
     "latest": false,
     "tags": [
       "pr-freebox-infohash",
       "pr-freebox-infohash-5.5.0.8732",
-      "pr-freebox-infohash-dfd8506"
+      "pr-freebox-infohash-1024f24"
     ]
   },
   "pr-kodi-rt-criticrating": {
