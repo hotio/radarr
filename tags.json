@@ -26,13 +26,13 @@
   "pr-equality-check": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-04-23T04:54:20.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8794928489",
+    "last_updated": "2024-04-23T09:23:32.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8797825813",
     "latest": false,
     "tags": [
       "pr-equality-check",
       "pr-equality-check-5.5.0.8737",
-      "pr-equality-check-d1f3e1b"
+      "pr-equality-check-7386466"
     ]
   },
   "pr-freebox-infohash": {
