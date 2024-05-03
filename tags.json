@@ -71,6 +71,18 @@
       "pr-movie-files-sort-5698356"
     ]
   },
+  "pr-net8": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-05-03T10:07:57.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8937355534",
+    "latest": false,
+    "tags": [
+      "pr-net8",
+      "pr-net8-5.5.2.8770",
+      "pr-net8-df323c9"
+    ]
+  },
   "pr-sonarr-pull-c6071f6d": {
     "description": "",
     "hide": true,
