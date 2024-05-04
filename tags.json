@@ -47,6 +47,18 @@
       "pr-freebox-infohash-1024f24"
     ]
   },
+  "pr-interactive-search-indexer-flags": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-05-04T11:21:45.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8950117657",
+    "latest": false,
+    "tags": [
+      "pr-interactive-search-indexer-flags",
+      "pr-interactive-search-indexer-flags-5.5.2.8778",
+      "pr-interactive-search-indexer-flags-2e9acc8"
+    ]
+  },
   "pr-kodi-rt-criticrating": {
     "description": "",
     "hide": true,
