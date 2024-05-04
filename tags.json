@@ -86,13 +86,13 @@
   "pr-net8": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-05-03T10:50:34.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8937836932",
+    "last_updated": "2024-05-04T12:39:51.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8950535910",
     "latest": false,
     "tags": [
       "pr-net8",
       "pr-net8-5.5.2.8772",
-      "pr-net8-a8005ee"
+      "pr-net8-188d3c7"
     ]
   },
   "pr-sonarr-pull-c6071f6d": {
