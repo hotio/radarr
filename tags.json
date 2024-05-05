@@ -50,13 +50,13 @@
   "pr-interactive-search-indexer-flags": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-05-04T11:21:45.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8950117657",
+    "last_updated": "2024-05-05T09:12:36.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8957131722",
     "latest": false,
     "tags": [
       "pr-interactive-search-indexer-flags",
       "pr-interactive-search-indexer-flags-5.5.2.8778",
-      "pr-interactive-search-indexer-flags-2e9acc8"
+      "pr-interactive-search-indexer-flags-57fba73"
     ]
   },
   "pr-kodi-rt-criticrating": {
