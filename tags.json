@@ -95,6 +95,18 @@
       "pr-net8-188d3c7"
     ]
   },
+  "pr-release-push-indexer-flags": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-05-06T23:26:05.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/8977109063",
+    "latest": false,
+    "tags": [
+      "pr-release-push-indexer-flags",
+      "pr-release-push-indexer-flags-5.5.3.8800",
+      "pr-release-push-indexer-flags-537b122"
+    ]
+  },
   "pr-sonarr-pull-c6071f6d": {
     "description": "",
     "hide": true,
