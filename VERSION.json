@@ -1,5 +1,5 @@
 {
-  "branch": "interactive-search-indexer-flags",
+  "branch": "release-push-indexer-flags",
   "hide": true,
   "test_amd64": true,
   "test_arm64": true,
@@ -8,5 +8,5 @@
   "upstream_digest_arm64": "sha256:8b1217064599410503a0de18b1e14bd86cfc7faba3e88746974700616c186ad0",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
-  "version": "5.5.2.8778"
+  "version": "5.5.3.8800"
 }
