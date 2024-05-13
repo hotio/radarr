@@ -158,13 +158,13 @@
   "pr-wanted-cutoff-missing": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-05-13T21:48:15.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/9070220114",
+    "last_updated": "2024-05-13T22:50:35.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/9070841841",
     "latest": false,
     "tags": [
       "pr-wanted-cutoff-missing",
-      "pr-wanted-cutoff-missing-5.6.0.8834",
-      "pr-wanted-cutoff-missing-cb8dd4d"
+      "pr-wanted-cutoff-missing-5.6.0.8836",
+      "pr-wanted-cutoff-missing-de2143f"
     ]
   },
   "release": {
