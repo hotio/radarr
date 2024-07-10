@@ -107,6 +107,18 @@
       "pr-release-push-indexer-flags-537b122"
     ]
   },
+  "pr-sonarcloud": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-07-10T16:28:22.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/9877913230",
+    "latest": false,
+    "tags": [
+      "pr-sonarcloud",
+      "pr-sonarcloud-5.8.2.8913",
+      "pr-sonarcloud-bb37106"
+    ]
+  },
   "pr-sonarr-pull-a0d29331": {
     "description": "",
     "hide": true,
