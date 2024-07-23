@@ -74,13 +74,13 @@
   "pr-migrations-sqlite-dbo": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-07-22T23:24:30.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10049725934",
+    "last_updated": "2024-07-23T00:58:26.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10050654696",
     "latest": false,
     "tags": [
       "pr-migrations-sqlite-dbo",
       "pr-migrations-sqlite-dbo-5.9.0.8935",
-      "pr-migrations-sqlite-dbo-eb497a4"
+      "pr-migrations-sqlite-dbo-0ae070c"
     ]
   },
   "pr-movie-files-sort": {
