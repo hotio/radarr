@@ -230,13 +230,13 @@
   "release": {
     "description": "master",
     "hide": false,
-    "last_updated": "2024-07-22T23:24:43.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10049726121",
+    "last_updated": "2024-07-23T00:57:41.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10050654909",
     "latest": true,
     "tags": [
       "release",
       "release-5.8.3.8933",
-      "release-cbb4fdc"
+      "release-f22edea"
     ]
   },
   "testing": {
