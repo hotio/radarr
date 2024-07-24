@@ -215,6 +215,18 @@
       "pr-sonarr-pulls-20240308-22ef039"
     ]
   },
+  "pr-sorting-movie-select": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-07-24T22:31:21.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10084912385",
+    "latest": false,
+    "tags": [
+      "pr-sorting-movie-select",
+      "pr-sorting-movie-select-5.9.0.8951",
+      "pr-sorting-movie-select-e5456e4"
+    ]
+  },
   "pr-wanted-cutoff-missing": {
     "description": "",
     "hide": true,
