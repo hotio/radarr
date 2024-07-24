@@ -218,13 +218,13 @@
   "pr-sorting-movie-select": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-07-24T22:31:21.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10084912385",
+    "last_updated": "2024-07-24T23:41:32.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10085563117",
     "latest": false,
     "tags": [
       "pr-sorting-movie-select",
-      "pr-sorting-movie-select-5.9.0.8951",
-      "pr-sorting-movie-select-e5456e4"
+      "pr-sorting-movie-select-5.9.0.8952",
+      "pr-sorting-movie-select-14e3c6a"
     ]
   },
   "pr-wanted-cutoff-missing": {
