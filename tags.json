@@ -131,6 +131,18 @@
       "pr-sonarcloud-bb37106"
     ]
   },
+  "pr-sonarr-pull-0877a671": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-08-13T05:13:01.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10363957069",
+    "latest": false,
+    "tags": [
+      "pr-sonarr-pull-0877a671",
+      "pr-sonarr-pull-0877a671-5.9.0.9011",
+      "pr-sonarr-pull-0877a671-73892d8"
+    ]
+  },
   "pr-sonarr-pull-11a9dcb3": {
     "description": "",
     "hide": true,
