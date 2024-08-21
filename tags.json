@@ -95,6 +95,18 @@
       "pr-movie-files-sort-5698356"
     ]
   },
+  "pr-movie-root-folder-validation": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-08-21T02:20:44.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10482341739",
+    "latest": false,
+    "tags": [
+      "pr-movie-root-folder-validation",
+      "pr-movie-root-folder-validation-5.10.0.9075",
+      "pr-movie-root-folder-validation-5bde9b4"
+    ]
+  },
   "pr-net8": {
     "description": "",
     "hide": true,
