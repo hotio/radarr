@@ -26,13 +26,13 @@
   "pr-autotags-in-use": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-09-05T13:11:09.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10721015009",
+    "last_updated": "2024-09-07T01:03:23.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10747189983",
     "latest": false,
     "tags": [
       "pr-autotags-in-use",
       "pr-autotags-in-use-5.10.2.9157",
-      "pr-autotags-in-use-8a0edde"
+      "pr-autotags-in-use-d28ec90"
     ]
   },
   "pr-equality-check": {
