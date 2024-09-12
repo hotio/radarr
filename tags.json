@@ -47,6 +47,18 @@
       "pr-equality-check-77cfb75"
     ]
   },
+  "pr-filter-number-fraction-digits": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-09-12T17:58:15.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10836126491",
+    "latest": false,
+    "tags": [
+      "pr-filter-number-fraction-digits",
+      "pr-filter-number-fraction-digits-5.10.3.9177",
+      "pr-filter-number-fraction-digits-854c326"
+    ]
+  },
   "pr-freebox-infohash": {
     "description": "",
     "hide": true,
