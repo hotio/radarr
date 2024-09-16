@@ -359,6 +359,18 @@
       "pr-sorting-movie-select-14e3c6a"
     ]
   },
+  "pr-tmdb-person-filters": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-09-16T22:05:00.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10892682609",
+    "latest": false,
+    "tags": [
+      "pr-tmdb-person-filters",
+      "pr-tmdb-person-filters-5.10.4.9206",
+      "pr-tmdb-person-filters-9065be6"
+    ]
+  },
   "pr-wanted-cutoff-missing": {
     "description": "",
     "hide": true,
