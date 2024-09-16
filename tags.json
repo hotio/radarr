@@ -11,6 +11,18 @@
       "nightly-9c47172"
     ]
   },
+  "pr-allowed-sort-keys": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-09-16T17:28:59.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10888894117",
+    "latest": false,
+    "tags": [
+      "pr-allowed-sort-keys",
+      "pr-allowed-sort-keys-5.10.4.9202",
+      "pr-allowed-sort-keys-1d86454"
+    ]
+  },
   "pr-alt-iso-code-mappings": {
     "description": "",
     "hide": true,
