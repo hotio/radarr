@@ -374,13 +374,13 @@
   "pr-tmdb-person-filters": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-09-16T22:05:00.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10892682609",
+    "last_updated": "2024-09-21T20:51:24.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10975557704",
     "latest": false,
     "tags": [
       "pr-tmdb-person-filters",
       "pr-tmdb-person-filters-5.10.4.9206",
-      "pr-tmdb-person-filters-9065be6"
+      "pr-tmdb-person-filters-4763894"
     ]
   },
   "pr-wanted-cutoff-missing": {
