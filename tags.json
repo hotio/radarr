@@ -398,13 +398,13 @@
   "pr-trakt-ratings": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-09-23T08:05:12.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10990070880",
+    "last_updated": "2024-09-23T08:54:40.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10990864260",
     "latest": false,
     "tags": [
       "pr-trakt-ratings",
-      "pr-trakt-ratings-5.11.0.9225",
-      "pr-trakt-ratings-11e7d93"
+      "pr-trakt-ratings-5.11.0.9226",
+      "pr-trakt-ratings-b744988"
     ]
   },
   "pr-wanted-cutoff-missing": {
