@@ -398,13 +398,13 @@
   "pr-tmdb-person-filters": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-09-21T20:51:24.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10975557704",
+    "last_updated": "2024-09-24T23:36:41.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11023527421",
     "latest": false,
     "tags": [
       "pr-tmdb-person-filters",
       "pr-tmdb-person-filters-5.10.4.9206",
-      "pr-tmdb-person-filters-4763894"
+      "pr-tmdb-person-filters-90b4cef"
     ]
   },
   "pr-trakt-ratings": {
