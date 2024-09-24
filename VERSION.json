@@ -1,5 +1,5 @@
 {
-  "branch": "trakt-ratings",
+  "branch": "description-movie-availability",
   "hide": true,
   "test_amd64": true,
   "test_arm64": true,
@@ -8,5 +8,5 @@
   "upstream_digest_arm64": "sha256:8e920165ede3b39aa9e4d1e613153d016d16b9ca57ee460d429f34fb4a805022",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
-  "version": "5.11.0.9227"
+  "version": "5.11.0.9223"
 }
