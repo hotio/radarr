@@ -383,6 +383,18 @@
       "pr-sorting-movie-select-14e3c6a"
     ]
   },
+  "pr-telegramapikeylogcleanup": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-09-24T15:32:14.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11017013649",
+    "latest": false,
+    "tags": [
+      "pr-telegramapikeylogcleanup",
+      "pr-telegramapikeylogcleanup-5.11.0.9230",
+      "pr-telegramapikeylogcleanup-8789fc9"
+    ]
+  },
   "pr-tmdb-person-filters": {
     "description": "",
     "hide": true,
