@@ -50,13 +50,13 @@
   "pr-description-movie-availability": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-09-22T04:46:54.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/10978336365",
+    "last_updated": "2024-09-24T09:14:05.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11010657293",
     "latest": false,
     "tags": [
       "pr-description-movie-availability",
       "pr-description-movie-availability-5.11.0.9223",
-      "pr-description-movie-availability-9d68936"
+      "pr-description-movie-availability-7957ac8"
     ]
   },
   "pr-equality-check": {
