@@ -191,6 +191,18 @@
       "pr-release-push-indexer-flags-537b122"
     ]
   },
+  "pr-smart-colon-replacement": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-09-25T06:27:00.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11027486033",
+    "latest": false,
+    "tags": [
+      "pr-smart-colon-replacement",
+      "pr-smart-colon-replacement-5.11.0.9243",
+      "pr-smart-colon-replacement-ef41bdd"
+    ]
+  },
   "pr-sonarcloud": {
     "description": "",
     "hide": true,
