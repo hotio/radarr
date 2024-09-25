@@ -98,13 +98,13 @@
   "pr-hybrid-remux": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-09-25T01:10:02.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11024429169",
+    "last_updated": "2024-09-25T05:25:03.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11026719800",
     "latest": false,
     "tags": [
       "pr-hybrid-remux",
       "pr-hybrid-remux-5.11.0.9236",
-      "pr-hybrid-remux-a851a25"
+      "pr-hybrid-remux-8dff701"
     ]
   },
   "pr-interactive-search-indexer-flags": {
