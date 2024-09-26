@@ -71,6 +71,18 @@
       "pr-equality-check-77cfb75"
     ]
   },
+  "pr-exclude-files": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-09-26T12:53:12.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11052580618",
+    "latest": false,
+    "tags": [
+      "pr-exclude-files",
+      "pr-exclude-files-5.12.0.9248",
+      "pr-exclude-files-9eea903"
+    ]
+  },
   "pr-filter-number-fraction-digits": {
     "description": "",
     "hide": true,
