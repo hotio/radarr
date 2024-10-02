@@ -47,6 +47,18 @@
       "pr-autotags-in-use-d28ec90"
     ]
   },
+  "pr-deprecate-movie-file-movie-folder-format": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-10-02T19:42:37.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11150469227",
+    "latest": false,
+    "tags": [
+      "pr-deprecate-movie-file-movie-folder-format",
+      "pr-deprecate-movie-file-movie-folder-format-5.12.1.9269",
+      "pr-deprecate-movie-file-movie-folder-format-60e1321"
+    ]
+  },
   "pr-description-movie-availability": {
     "description": "",
     "hide": true,
