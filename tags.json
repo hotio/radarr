@@ -155,6 +155,18 @@
       "pr-migrations-sqlite-dbo-0ae070c"
     ]
   },
+  "pr-movie-clean-title-the": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-10-02T15:23:33.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11146668683",
+    "latest": false,
+    "tags": [
+      "pr-movie-clean-title-the",
+      "pr-movie-clean-title-the-5.12.1.9264",
+      "pr-movie-clean-title-the-aec3d37"
+    ]
+  },
   "pr-movie-files-sort": {
     "description": "",
     "hide": true,
