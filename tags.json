@@ -179,6 +179,18 @@
       "pr-movie-files-sort-5698356"
     ]
   },
+  "pr-movie-path-validation-update": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-10-02T16:12:27.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11147454777",
+    "latest": false,
+    "tags": [
+      "pr-movie-path-validation-update",
+      "pr-movie-path-validation-update-5.12.1.9265",
+      "pr-movie-path-validation-update-9d803a4"
+    ]
+  },
   "pr-movie-root-folder-validation": {
     "description": "",
     "hide": true,
