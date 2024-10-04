@@ -227,6 +227,18 @@
       "pr-net8-5e51c08"
     ]
   },
+  "pr-release-profile-typescript": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-10-04T13:22:45.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11180700905",
+    "latest": false,
+    "tags": [
+      "pr-release-profile-typescript",
+      "pr-release-profile-typescript-5.12.1.9276",
+      "pr-release-profile-typescript-f244012"
+    ]
+  },
   "pr-release-push-indexer-flags": {
     "description": "",
     "hide": true,
