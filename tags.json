@@ -215,6 +215,18 @@
       "pr-movie-root-folder-validation-5bde9b4"
     ]
   },
+  "pr-naming-typescript": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-10-04T17:10:45.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11184021059",
+    "latest": false,
+    "tags": [
+      "pr-naming-typescript",
+      "pr-naming-typescript-5.12.1.9278",
+      "pr-naming-typescript-a31ff32"
+    ]
+  },
   "pr-net8": {
     "description": "",
     "hide": true,
