@@ -155,6 +155,18 @@
       "pr-kodi-rt-criticrating-b9a7810"
     ]
   },
+  "pr-mac-runner": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-10-06T10:22:20.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11201027855",
+    "latest": false,
+    "tags": [
+      "pr-mac-runner",
+      "pr-mac-runner-5.12.2.9295",
+      "pr-mac-runner-f15133b"
+    ]
+  },
   "pr-migrations-sqlite-dbo": {
     "description": "",
     "hide": true,
