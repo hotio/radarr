@@ -230,13 +230,13 @@
   "pr-naming-typescript": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-10-05T08:23:31.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11191748376",
+    "last_updated": "2024-10-06T13:33:18.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11202294365",
     "latest": false,
     "tags": [
       "pr-naming-typescript",
       "pr-naming-typescript-5.12.1.9283",
-      "pr-naming-typescript-b103b36"
+      "pr-naming-typescript-853c18a"
     ]
   },
   "pr-net8": {
