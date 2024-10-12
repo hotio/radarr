@@ -251,6 +251,18 @@
       "pr-net8-5e51c08"
     ]
   },
+  "pr-provider-signal-events": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-10-12T18:36:29.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11307882563",
+    "latest": false,
+    "tags": [
+      "pr-provider-signal-events",
+      "pr-provider-signal-events-5.13.0.9339",
+      "pr-provider-signal-events-3706317"
+    ]
+  },
   "pr-release-profile-typescript": {
     "description": "",
     "hide": true,
