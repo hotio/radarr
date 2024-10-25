@@ -263,6 +263,18 @@
       "pr-provider-signal-events-131364c"
     ]
   },
+  "pr-qbit-stopped-started": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-10-25T06:25:47.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11512997756",
+    "latest": false,
+    "tags": [
+      "pr-qbit-stopped-started",
+      "pr-qbit-stopped-started-5.13.1.9376",
+      "pr-qbit-stopped-started-8348e73"
+    ]
+  },
   "pr-release-profile-typescript": {
     "description": "",
     "hide": true,
