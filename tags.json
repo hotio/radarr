@@ -299,6 +299,18 @@
       "pr-release-push-indexer-flags-537b122"
     ]
   },
+  "pr-release-year": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-10-26T12:06:24.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11531605186",
+    "latest": false,
+    "tags": [
+      "pr-release-year",
+      "pr-release-year-5.14.0.9381",
+      "pr-release-year-da40971"
+    ]
+  },
   "pr-smart-colon-replacement": {
     "description": "",
     "hide": true,
