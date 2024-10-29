@@ -143,6 +143,18 @@
       "pr-hybrid-remux-952843d"
     ]
   },
+  "pr-improve-parsing-catalan": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-10-29T18:22:55.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11580067303",
+    "latest": false,
+    "tags": [
+      "pr-improve-parsing-catalan",
+      "pr-improve-parsing-catalan-5.15.0.9398",
+      "pr-improve-parsing-catalan-166586e"
+    ]
+  },
   "pr-interactive-search-indexer-flags": {
     "description": "",
     "hide": true,
