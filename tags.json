@@ -50,13 +50,13 @@
   "pr-avoid-pending-releases-with-orphaned-movie": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-10-31T16:00:10.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11615406552",
+    "last_updated": "2024-11-12T06:32:09.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11791794284",
     "latest": false,
     "tags": [
       "pr-avoid-pending-releases-with-orphaned-movie",
       "pr-avoid-pending-releases-with-orphaned-movie-5.15.0.9403",
-      "pr-avoid-pending-releases-with-orphaned-movie-4331cbb"
+      "pr-avoid-pending-releases-with-orphaned-movie-acec826"
     ]
   },
   "pr-deprecate-movie-file-movie-folder-format": {
