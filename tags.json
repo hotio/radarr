@@ -119,6 +119,18 @@
       "pr-filter-number-fraction-digits-854c326"
     ]
   },
+  "pr-fix-discover-movie-release-dates": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-11-18T21:22:20.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/11901289818",
+    "latest": false,
+    "tags": [
+      "pr-fix-discover-movie-release-dates",
+      "pr-fix-discover-movie-release-dates-5.15.1.9458",
+      "pr-fix-discover-movie-release-dates-3a64278"
+    ]
+  },
   "pr-fix-relative-path-different-os": {
     "description": "",
     "hide": true,
