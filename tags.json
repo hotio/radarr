@@ -683,6 +683,18 @@
       "pr-trakt-ratings-6c27125"
     ]
   },
+  "pr-transmission-labels": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-12-01T18:05:38.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/12107787005",
+    "latest": false,
+    "tags": [
+      "pr-transmission-labels",
+      "pr-transmission-labels-5.16.1.9495",
+      "pr-transmission-labels-739a0ec"
+    ]
+  },
   "pr-wanted-cutoff-missing": {
     "description": "",
     "hide": true,
