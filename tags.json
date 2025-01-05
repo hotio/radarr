@@ -491,6 +491,18 @@
       "pr-sonarr-pull-40f4ef27-cbead1b"
     ]
   },
+  "pr-sonarr-pull-4dcc015f": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-01-05T03:08:35.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/12616009678",
+    "latest": false,
+    "tags": [
+      "pr-sonarr-pull-4dcc015f",
+      "pr-sonarr-pull-4dcc015f-5.17.2.9578",
+      "pr-sonarr-pull-4dcc015f-82c7eff"
+    ]
+  },
   "pr-sonarr-pull-6d0f10b8": {
     "description": "",
     "hide": true,
