@@ -86,13 +86,13 @@
   "pr-discord-log-request-body-error": {
     "description": "",
     "hide": true,
-    "last_updated": "2025-01-06T09:50:39.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/12630245990",
+    "last_updated": "2025-01-06T11:11:16.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/12631393566",
     "latest": false,
     "tags": [
       "pr-discord-log-request-body-error",
-      "pr-discord-log-request-body-error-5.18.0.9586",
-      "pr-discord-log-request-body-error-069cd10"
+      "pr-discord-log-request-body-error-5.18.0.9588",
+      "pr-discord-log-request-body-error-fcd1899"
     ]
   },
   "pr-equality-check": {
