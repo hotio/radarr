@@ -770,13 +770,13 @@
   "release": {
     "description": "master",
     "hide": false,
-    "last_updated": "2025-01-07T06:42:50.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/12646387530",
+    "last_updated": "2025-01-08T20:36:00.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/12678377685",
     "latest": true,
     "tags": [
       "release",
       "release-5.17.2.9580",
-      "release-3a48276"
+      "release-4676c5b"
     ]
   },
   "testing": {
