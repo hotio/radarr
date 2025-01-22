@@ -59,6 +59,18 @@
       "pr-avoid-pending-releases-with-orphaned-movie-acec826"
     ]
   },
+  "pr-cleanup-duplicated-movie-translations": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-01-22T00:04:55.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/12898197435",
+    "latest": false,
+    "tags": [
+      "pr-cleanup-duplicated-movie-translations",
+      "pr-cleanup-duplicated-movie-translations-5.18.2.9652",
+      "pr-cleanup-duplicated-movie-translations-30aaef5"
+    ]
+  },
   "pr-deprecate-movie-file-movie-folder-format": {
     "description": "",
     "hide": true,
