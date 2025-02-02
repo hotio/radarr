@@ -806,13 +806,13 @@
   "testing": {
     "description": "develop",
     "hide": false,
-    "last_updated": "2025-02-02T05:04:45.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/13095761924",
+    "last_updated": "2025-02-02T11:11:05.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/13098204023",
     "latest": false,
     "tags": [
       "testing",
-      "testing-5.18.2.9651",
-      "testing-c964573"
+      "testing-5.18.3.9669",
+      "testing-34983c4"
     ]
   }
 }
