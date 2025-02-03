@@ -107,6 +107,18 @@
       "pr-discord-log-request-body-error-fcd1899"
     ]
   },
+  "pr-enum-decision-engine-rejections": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-02-03T14:39:43.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/13115885380",
+    "latest": false,
+    "tags": [
+      "pr-enum-decision-engine-rejections",
+      "pr-enum-decision-engine-rejections-5.19.0.9676",
+      "pr-enum-decision-engine-rejections-9f2e997"
+    ]
+  },
   "pr-equality-check": {
     "description": "",
     "hide": true,
