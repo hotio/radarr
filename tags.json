@@ -251,6 +251,18 @@
       "pr-mac-runner-f15133b"
     ]
   },
+  "pr-manage-existing-files": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-02-16T19:36:14.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/13358153729",
+    "latest": false,
+    "tags": [
+      "pr-manage-existing-files",
+      "pr-manage-existing-files-5.19.2.9708",
+      "pr-manage-existing-files-744ee8b"
+    ]
+  },
   "pr-migrations-sqlite-dbo": {
     "description": "",
     "hide": true,
