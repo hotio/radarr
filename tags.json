@@ -275,6 +275,18 @@
       "pr-manage-existing-files-744ee8b"
     ]
   },
+  "pr-manage-movies-import": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-03-22T15:07:16.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14009730105",
+    "latest": false,
+    "tags": [
+      "pr-manage-movies-import",
+      "pr-manage-movies-import-5.21.0.9789",
+      "pr-manage-movies-import-16407b9"
+    ]
+  },
   "pr-migrations-sqlite-dbo": {
     "description": "",
     "hide": true,
