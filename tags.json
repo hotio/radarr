@@ -278,13 +278,13 @@
   "pr-manage-movies-import": {
     "description": "",
     "hide": true,
-    "last_updated": "2025-03-22T15:07:16.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14009730105",
+    "last_updated": "2025-03-23T16:35:39.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14020892271",
     "latest": false,
     "tags": [
       "pr-manage-movies-import",
-      "pr-manage-movies-import-5.21.0.9789",
-      "pr-manage-movies-import-16407b9"
+      "pr-manage-movies-import-5.21.1.9794",
+      "pr-manage-movies-import-f0d7b07"
     ]
   },
   "pr-migrations-sqlite-dbo": {
