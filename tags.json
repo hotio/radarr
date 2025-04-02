@@ -866,13 +866,13 @@
   "testing": {
     "description": "develop",
     "hide": false,
-    "last_updated": "2025-04-01T08:37:15.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14190842314",
+    "last_updated": "2025-04-02T06:05:01.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14212482344",
     "latest": false,
     "tags": [
       "testing",
       "testing-5.22.0.9808",
-      "testing-163fdb2"
+      "testing-f583fa4"
     ]
   }
 }
