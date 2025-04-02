@@ -146,13 +146,13 @@
   "pr-fail-downloads": {
     "description": "",
     "hide": true,
-    "last_updated": "2025-04-01T08:37:06.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14190840788",
+    "last_updated": "2025-04-02T06:04:50.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14212481930",
     "latest": false,
     "tags": [
       "pr-fail-downloads",
       "pr-fail-downloads-5.21.1.9800",
-      "pr-fail-downloads-9036b6f"
+      "pr-fail-downloads-3180009"
     ]
   },
   "pr-filter-number-fraction-digits": {
