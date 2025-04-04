@@ -215,6 +215,18 @@
       "pr-hybrid-remux-952843d"
     ]
   },
+  "pr-improve-media-covers": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-04-04T22:42:57.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14275366702",
+    "latest": false,
+    "tags": [
+      "pr-improve-media-covers",
+      "pr-improve-media-covers-5.22.1.9833",
+      "pr-improve-media-covers-f2470c9"
+    ]
+  },
   "pr-improve-parsing-catalan": {
     "description": "",
     "hide": true,
