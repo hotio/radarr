@@ -71,6 +71,18 @@
       "pr-cleanup-duplicated-movie-translations-30aaef5"
     ]
   },
+  "pr-default-original-lang": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-04-10T14:14:36.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14382640556",
+    "latest": false,
+    "tags": [
+      "pr-default-original-lang",
+      "pr-default-original-lang-5.22.2.9855",
+      "pr-default-original-lang-d143232"
+    ]
+  },
   "pr-deprecate-movie-file-movie-folder-format": {
     "description": "",
     "hide": true,
