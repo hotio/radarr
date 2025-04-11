@@ -263,6 +263,18 @@
       "pr-improve-parsing-catalan-166586e"
     ]
   },
+  "pr-improve-refresh-movie": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-04-11T14:22:12.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14405244140",
+    "latest": false,
+    "tags": [
+      "pr-improve-refresh-movie",
+      "pr-improve-refresh-movie-5.22.2.9856",
+      "pr-improve-refresh-movie-fcbd298"
+    ]
+  },
   "pr-interactive-search-indexer-flags": {
     "description": "",
     "hide": true,
