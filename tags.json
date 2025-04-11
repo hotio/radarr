@@ -74,13 +74,13 @@
   "pr-default-original-lang": {
     "description": "",
     "hide": true,
-    "last_updated": "2025-04-10T14:14:36.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14382640556",
+    "last_updated": "2025-04-11T17:30:54.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14408704847",
     "latest": false,
     "tags": [
       "pr-default-original-lang",
       "pr-default-original-lang-5.22.2.9855",
-      "pr-default-original-lang-d143232"
+      "pr-default-original-lang-2986531"
     ]
   },
   "pr-deprecate-movie-file-movie-folder-format": {
