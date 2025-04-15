@@ -902,13 +902,13 @@
   "release": {
     "description": "master",
     "hide": false,
-    "last_updated": "2025-04-15T12:32:03.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14469218219",
+    "last_updated": "2025-04-15T13:12:13.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14470030402",
     "latest": true,
     "tags": [
       "release",
       "release-5.21.1.9799",
-      "release-0119509"
+      "release-67551c7"
     ]
   },
   "testing": {
