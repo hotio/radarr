@@ -443,6 +443,18 @@
       "pr-qbit-stopped-started-8348e73"
     ]
   },
+  "pr-refresh-movie-before-every-import": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-04-16T17:02:57.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14498290431",
+    "latest": false,
+    "tags": [
+      "pr-refresh-movie-before-every-import",
+      "pr-refresh-movie-before-every-import-5.22.3.9879",
+      "pr-refresh-movie-before-every-import-1558e78"
+    ]
+  },
   "pr-release-profile-typescript": {
     "description": "",
     "hide": true,
