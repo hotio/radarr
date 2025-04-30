@@ -914,13 +914,13 @@
   "release": {
     "description": "master",
     "hide": false,
-    "last_updated": "2025-04-23T19:11:38.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14626142803",
+    "last_updated": "2025-04-30T05:29:04.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14747295148",
     "latest": true,
     "tags": [
       "release",
       "release-5.22.4.9896",
-      "release-2f79248"
+      "release-c27cb37"
     ]
   },
   "testing": {
