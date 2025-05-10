@@ -506,13 +506,13 @@
   "pr-rjt-msg": {
     "description": "",
     "hide": true,
-    "last_updated": "2025-05-10T00:13:28.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14939789406",
+    "last_updated": "2025-05-10T12:21:32.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14945262848",
     "latest": false,
     "tags": [
       "pr-rjt-msg",
       "pr-rjt-msg-5.23.2.9918",
-      "pr-rjt-msg-9b47f45"
+      "pr-rjt-msg-c2d83e4"
     ]
   },
   "pr-smart-colon-replacement": {
