@@ -1,5 +1,5 @@
 {
-  "branch": "rjt-msg",
+  "branch": "net80",
   "hide": true,
   "test_amd64": true,
   "test_arm64": true,
@@ -8,5 +8,5 @@
   "upstream_digest_arm64": "sha256:cdb91f39e2757028faa00ef45fbfcd095bb210b8550cc78cd5f146cf649c4c26",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
-  "version": "5.23.2.9918"
+  "version": "6.0.0.9922"
 }
