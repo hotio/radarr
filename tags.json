@@ -491,6 +491,18 @@
       "pr-release-year-da40971"
     ]
   },
+  "pr-rjt-msg": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-05-10T00:13:28.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14939789406",
+    "latest": false,
+    "tags": [
+      "pr-rjt-msg",
+      "pr-rjt-msg-5.23.2.9918",
+      "pr-rjt-msg-9b47f45"
+    ]
+  },
   "pr-smart-colon-replacement": {
     "description": "",
     "hide": true,
