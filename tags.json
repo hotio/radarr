@@ -419,6 +419,18 @@
       "pr-net8-5e51c08"
     ]
   },
+  "pr-net80": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-05-10T11:50:13.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14945040190",
+    "latest": false,
+    "tags": [
+      "pr-net80",
+      "pr-net80-6.0.0.9922",
+      "pr-net80-07a1908"
+    ]
+  },
   "pr-provider-signal-events": {
     "description": "",
     "hide": true,
