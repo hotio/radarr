@@ -86,13 +86,13 @@
   "pr-deprecate-movie-file-movie-folder-format": {
     "description": "",
     "hide": true,
-    "last_updated": "2025-04-25T08:42:37.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14660533328",
+    "last_updated": "2025-05-13T10:55:01.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/14994761468",
     "latest": false,
     "tags": [
       "pr-deprecate-movie-file-movie-folder-format",
       "pr-deprecate-movie-file-movie-folder-format-5.23.0.9905",
-      "pr-deprecate-movie-file-movie-folder-format-e0e0bdb"
+      "pr-deprecate-movie-file-movie-folder-format-5df7ee3"
     ]
   },
   "pr-description-movie-availability": {
