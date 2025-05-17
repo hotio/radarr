@@ -119,6 +119,18 @@
       "pr-discord-log-request-body-error-fcd1899"
     ]
   },
+  "pr-dotnet6-synology": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-05-17T20:29:52.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/15088813136",
+    "latest": false,
+    "tags": [
+      "pr-dotnet6-synology",
+      "pr-dotnet6-synology-5.24.0.9990",
+      "pr-dotnet6-synology-77ab7eb"
+    ]
+  },
   "pr-en-language": {
     "description": "",
     "hide": true,
