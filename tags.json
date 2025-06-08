@@ -62,13 +62,13 @@
   "pr-bump-selenium-support": {
     "description": "",
     "hide": true,
-    "last_updated": "2025-06-08T13:30:18.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/15518946077",
+    "last_updated": "2025-06-08T13:36:23.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/15518996501",
     "latest": false,
     "tags": [
       "pr-bump-selenium-support",
-      "pr-bump-selenium-support-5.26.2.10091",
-      "pr-bump-selenium-support-f844c52"
+      "pr-bump-selenium-support-5.26.2.10092",
+      "pr-bump-selenium-support-d76197a"
     ]
   },
   "pr-cleanup-duplicated-movie-translations": {
