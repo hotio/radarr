@@ -974,13 +974,13 @@
   "testing": {
     "description": "develop",
     "hide": false,
-    "last_updated": "2025-06-08T07:38:34.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/15516225060",
+    "last_updated": "2025-06-15T04:28:43.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/15659455267",
     "latest": false,
     "tags": [
       "testing",
-      "testing-5.26.1.10080",
-      "testing-40beff9"
+      "testing-5.26.2.10099",
+      "testing-5a7767d"
     ]
   }
 }
