@@ -215,6 +215,18 @@
       "pr-filter-number-fraction-digits-854c326"
     ]
   },
+  "pr-fix-blocklistyear0": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-06-20T03:27:41.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/15770518930",
+    "latest": false,
+    "tags": [
+      "pr-fix-blocklistyear0",
+      "pr-fix-blocklistyear0-5.27.1.10114",
+      "pr-fix-blocklistyear0-21f92b8"
+    ]
+  },
   "pr-fix-discover-movie-release-dates": {
     "description": "",
     "hide": true,
