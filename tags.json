@@ -467,6 +467,18 @@
       "pr-net80-07a1908"
     ]
   },
+  "pr-no-more-org-naming": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-07-24T14:11:51.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/16499224233",
+    "latest": false,
+    "tags": [
+      "pr-no-more-org-naming",
+      "pr-no-more-org-naming-5.27.3.10146",
+      "pr-no-more-org-naming-07e2cda"
+    ]
+  },
   "pr-provider-signal-events": {
     "description": "",
     "hide": true,
