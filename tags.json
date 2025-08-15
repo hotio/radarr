@@ -974,13 +974,13 @@
   "pr-tmdb-list-fixes": {
     "description": "",
     "hide": true,
-    "last_updated": "2025-08-13T00:21:28.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/16924061070",
+    "last_updated": "2025-08-15T23:03:31.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/17001022681",
     "latest": false,
     "tags": [
       "pr-tmdb-list-fixes",
-      "pr-tmdb-list-fixes-5.27.4.10168",
-      "pr-tmdb-list-fixes-71d9db4"
+      "pr-tmdb-list-fixes-5.27.4.10173",
+      "pr-tmdb-list-fixes-f54232f"
     ]
   },
   "pr-tmdb-person-filters": {
