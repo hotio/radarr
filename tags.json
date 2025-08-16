@@ -215,6 +215,18 @@
       "pr-filter-number-fraction-digits-854c326"
     ]
   },
+  "pr-fix-UHDBDRip-parsing": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-08-16T14:48:56.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/17009636881",
+    "latest": false,
+    "tags": [
+      "pr-fix-UHDBDRip-parsing",
+      "pr-fix-UHDBDRip-parsing-5.27.4.10174",
+      "pr-fix-UHDBDRip-parsing-f0ce547"
+    ]
+  },
   "pr-fix-blocklistyear0": {
     "description": "",
     "hide": true,
