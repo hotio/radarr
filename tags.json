@@ -1034,13 +1034,13 @@
   "pr-v6-develop": {
     "description": "",
     "hide": true,
-    "last_updated": "2025-09-07T16:13:50.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/17530888990",
+    "last_updated": "2025-09-07T16:25:41.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/17531007708",
     "latest": false,
     "tags": [
       "pr-v6-develop",
-      "pr-v6-develop-6.0.0.10206",
-      "pr-v6-develop-3ae623b"
+      "pr-v6-develop-6.0.0.10208",
+      "pr-v6-develop-69a733d"
     ]
   },
   "pr-wanted-cutoff-missing": {
