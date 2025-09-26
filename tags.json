@@ -59,6 +59,18 @@
       "pr-avoid-pending-releases-with-orphaned-movie-acec826"
     ]
   },
+  "pr-bump-coverlet": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-09-26T15:13:58.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/18041733892",
+    "latest": false,
+    "tags": [
+      "pr-bump-coverlet",
+      "pr-bump-coverlet-6.0.1.10252",
+      "pr-bump-coverlet-eee7a44"
+    ]
+  },
   "pr-bump-selenium-support": {
     "description": "",
     "hide": true,
