@@ -1094,13 +1094,13 @@
   "testing": {
     "description": "develop",
     "hide": false,
-    "last_updated": "2025-12-25T09:45:16.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/20502804553",
+    "last_updated": "2025-12-25T10:37:47.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/20503580544",
     "latest": false,
     "tags": [
       "testing",
       "testing-6.1.0.10309",
-      "testing-4538be6"
+      "testing-69e0ace"
     ]
   }
 }
