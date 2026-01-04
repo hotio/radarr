@@ -1092,15 +1092,19 @@
     ]
   },
   "testing": {
+    "commit_message": "Version update: 6.1.0.10309 => 6.1.0.10316",
     "description": "develop",
     "hide": false,
-    "last_updated": "2025-12-31T17:24:59.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/20623614466",
+    "last_updated": "2026-01-04T05:01:16.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/20687932900",
     "latest": false,
     "tags": [
       "testing",
-      "testing-6.1.0.10309",
-      "testing-c207598"
+      "testing-6.1.0.10316",
+      "testing-74d196b",
+      "",
+      "",
+      ""
     ]
   }
 }
