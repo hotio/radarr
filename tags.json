@@ -1,14 +1,18 @@
 {
   "nightly": {
+    "commit_message": "Upstream image update",
     "description": "nightly",
     "hide": false,
-    "last_updated": "2025-12-31T17:24:03.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/20623613339",
+    "last_updated": "2026-01-04T09:26:36.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/20690833756",
     "latest": false,
     "tags": [
       "nightly",
       "nightly-6.1.1.10317",
-      "nightly-0a5948e"
+      "nightly-fccec44",
+      "",
+      "",
+      ""
     ]
   },
   "pr-allowed-sort-keys": {
