@@ -1086,15 +1086,16 @@
   },
   "release": {
     "commit_message": "Upstream image update",
+    "commit_sha": "e43469492b7837a924f18967362b1d612e3629b5",
     "description": "master",
     "hide": false,
-    "last_updated": "2026-01-04T09:26:42.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/20690834703",
+    "last_updated": "2026-01-07T03:57:46.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/20770105821",
     "latest": true,
     "tags": [
       "release",
       "release-6.0.4.10291",
-      "release-64001a2",
+      "release-e434694",
       "",
       "",
       ""
