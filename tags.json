@@ -1103,15 +1103,16 @@
   },
   "testing": {
     "commit_message": "Upstream image update",
+    "commit_sha": "722f3ecfd082c1ba62d530f3508647ee705227cb",
     "description": "develop",
     "hide": false,
-    "last_updated": "2026-01-04T09:26:44.000Z",
-    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/20690835107",
+    "last_updated": "2026-01-07T03:57:47.000Z",
+    "last_updated_url": "https://github.com/hotio/radarr/actions/runs/20770106203",
     "latest": false,
     "tags": [
       "testing",
       "testing-6.1.0.10316",
-      "testing-652533d",
+      "testing-722f3ec",
       "",
       "",
       ""
