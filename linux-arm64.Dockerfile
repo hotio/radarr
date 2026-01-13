@@ -9,12 +9,12 @@ ENV IMAGE_STATS=${IMAGE_STATS} WEBUI_PORTS="7878/tcp"
 RUN apk add --no-cache libintl sqlite-libs icu-libs
 
 ARG VERSION
-ARG SBRANCH
+ARG VERSION_BRANCH
 ARG PACKAGE_VERSION=${VERSION}
 RUN mkdir "${APP_DIR}/bin" && \
-    curl -fsSL "https://radarr.servarr.com/v1/update/${SBRANCH}/updatefile?version=${VERSION}&os=linuxmusl&runtime=netcore&arch=arm64" | tar xzf - -C "${APP_DIR}/bin" --strip-components=1 && \
+    curl -fsSL "https://radarr.servarr.com/v1/update/${VERSION_BRANCH}/updatefile?version=${VERSION}&os=linuxmusl&runtime=netcore&arch=arm64" | tar xzf - -C "${APP_DIR}/bin" --strip-components=1 && \
     rm -rf "${APP_DIR}/bin/Radarr.Update" && \
-    echo -e "PackageVersion=${PACKAGE_VERSION}\nPackageAuthor=[hotio](https://github.com/hotio)\nUpdateMethod=Docker\nBranch=${SBRANCH}" > "${APP_DIR}/package_info" && \
+    echo -e "PackageVersion=${PACKAGE_VERSION}\nPackageAuthor=[hotio](https://github.com/hotio)\nUpdateMethod=Docker\nBranch=${VERSION_BRANCH}" > "${APP_DIR}/package_info" && \
     chmod -R u=rwX,go=rX "${APP_DIR}"
 
 COPY root/ /
