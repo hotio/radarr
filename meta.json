@@ -1,5 +1,5 @@
 {
-  "branch": "bump-coverlet",
+  "version_branch": "bump-coverlet",
   "hide": true,
   "test_amd64": true,
   "test_arm64": true,
