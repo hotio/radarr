@@ -1,6 +1,6 @@
 {
   "description": "develop",
-  "sbranch": "develop",
+  "version_branch": "develop",
   "test_amd64": true,
   "test_arm64": true,
   "test_url": "http://localhost:7878/system/status",
