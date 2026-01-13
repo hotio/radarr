@@ -10,7 +10,7 @@ RUN apk add --no-cache libintl sqlite-libs icu-libs
 
 ARG VERSION
 ARG BRANCH
-ARG PACKAGE_VERSION={VERSION}
+ARG PACKAGE_VERSION=${VERSION}
 RUN mkdir "${APP_DIR}/bin" && \
     curl -fsSL "https://radarr.servarr.com/v1/update/${BRANCH}/updatefile?version=${VERSION}&os=linuxmusl&runtime=netcore&arch=x64" | tar xzf - -C "${APP_DIR}/bin" --strip-components=1 && \
     rm -rf "${APP_DIR}/bin/Radarr.Update" && \
