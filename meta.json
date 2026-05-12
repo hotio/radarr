@@ -1,6 +1,6 @@
 {
   "description": "nightly",
-  "packages_hash": "8db6dcd56b9586ce30e9f2231c764fc7ca529201",
+  "packages_hash": "9b8c6cfe9a5db9f371ed10ec253b20d92d8d3c47",
   "test_amd64": true,
   "test_arm64": true,
   "test_url": "http://localhost:7878/system/status",
