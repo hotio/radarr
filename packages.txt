@@ -1,3 +1,0 @@
-icu-data-en=76.1-r1
-icu-libs=76.1-r1
-libintl=0.24.1-r1
